@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Menu Horizontal</title>
+		<meta charset="#"/>
+		<meta name="author" content="Jefferson Jamess - falafera.com" />
+		
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+ background-color: gray;
+ font-family: 'Roboto', sans-serif;
+}
+
+/* Barra Top Menu */ 
+
+
+.barra-Header{
+  position: fixed;
+  background: rgba(112,109,104,.8);
+  height: 80px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.barra-Header img{
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+
+
+
+nav#menu ul {
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px;
+  position: relative;
+  padding: 5px;
+       
+}
+
+nav#menu li{
+  display: inline-block;
+  float: left;
+  background-color: rgba(202,202,202,0.5);
+  padding: 0px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid gray; 
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px black;
+  -webkit-transition: background-color 1s;    
+  -moz-transition: background-color 1s; 
+  -o-transition: background-color 1s;     
+  -ms-transition: background-color 1s;
+   transition: background-color 1s; 
+
+}
+
+nav#menu ul li:hover{
+	background-color: #606060;
+}
+
+nav#menu ul ul{
+   display: none;
+   left: -15px;    
+}
+
+nav#menu ul li:hover > ul{
+	display:block;
+}
+
+nav#menu ul ul ul{
+	margin-left: 201px;
+	top: 0px;
+	position: absolute;
+}
+
+nav#menu ul ul li:hover{
+	background-color:  #606060;
+}
+
+nav#menu ul ul ul li:hover{
+	background-color: #062a66;
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+/* Icone redondo da barra do menu */ 
+
+
+
+#icon-bar-header{
+    position: relative;
+    left: 1150px;
+    bottom: 230px;
+    
+}
+
+#icon-bar-header-kryptobit{
+     position: relative;
+     left: 992px;
+     bottom: 237px;
+}
+</style>
+  
+	</head>
+	<body>
+<div class='barra-Header' style='width: 100%'>
+<img alt='KryptoBit' border='0' height='100px' src='https://image.ibb.co/iVgDwV/Letra-KB.png' width='100px'/>
+
+
+          
+
+
+<nav id="menu">
+<ul>
+   <li>Home</li>
+   <li><a href="#">História</a>
+      <ul>
+         <li>História do HD</li>
+         <li>História do Eniac</li>
+         <li>História da Era</li>
+      </ul>
+    
+</li>
+   
+      <li>Interfaces</li>  
+      <li>Leitura e Gravação</li>
+      <li>Sistema de Arquivos</li>
+</ul> 
+		</nav>
+
+
+<img height='140px' id='icon-bar-header' src='https://image.ibb.co/c2yeLq/Vetor.png' width='140px'/>
+<img height='110px' id='icon-bar-header-kryptobit' src='https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png' width='110px'/>
+<script>
+   function mudaFoto (foto){
+     document.getElementById(&quot;icon-bar-header-kryptobit&quot;).src = foto;
+}
+
+</script>   
+</div>
+	</body>
+</html>

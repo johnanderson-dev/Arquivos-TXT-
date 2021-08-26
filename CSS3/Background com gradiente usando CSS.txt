@@ -1,0 +1,22 @@
+<hmtl>
+<head>
+<title></title>
+<style>
+body{
+   width:1000px;
+   height:1000px;
+   background-image: -webkit-linear-gradient(grey, white 50%);
+   background-image: -moz-linear-gradient(grey, white 50%);
+   background-image: -o-linear-gradient(grey, white 50%);
+</style>
+</head>
+<body>
+...............................................</br>
+
+<h1>Definindo o tamanho do gradiente:</h1>
+
+<p>background-image: -webkit-linear-gradient(grey, white 50%);</p>
+<p>background-image: -moz-linear-gradient(grey, white 50%);</p>
+<p>background-image: -o-linear-gradient(grey, white 50%)</p>
+</body>
+</html>

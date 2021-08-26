@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <link href='css/mobile.css' media='(max-width: 320px)' rel='stylesheet'/>    
+
+<title>KryptoBit Info</title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin><![CDATA[
+@import url('https://fonts.googleapis.com/css?family=Pacifico'); 
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); 
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+
+
+
+]]></b:skin>
+</head>
+<body>
+
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ </div>
+
+
+
+
+
+</body>
+</html>

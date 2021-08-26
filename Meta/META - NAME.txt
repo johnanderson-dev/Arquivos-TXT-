@@ -1,0 +1,194 @@
+                                        META _ NAME
+
+
+<meta name="description" content="#">
+           Especifica uma descrição da página. Os motores de busca podem escolher esta descrição para mostrar
+                                          com os resultados das pesquisas.
+
+<meta name="keywords" content="html, css, etc">
+           Especifica uma lista de palavras-chave separada por vírgulas - relevante para a página 
+           (Informa os mecanismos de pesquisa sobre o que a página é sobre).
+           Dica: especifique sempre palavras-chave (necessárias pelos mecanismos de busca para categorizar a página).  
+
+<meta name="author" content="John Anderson">
+           Especifica o nome do autor do documento.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" Redimensiona a pagina para tamanho mobile >
+           Controla a viewport (a área visível do usuário de uma página da web).
+           A viewport varia com o dispositivo, e será menor em um telefone celular do que na tela do computador.
+           Você deve incluir o seguinte elemento <meta> viewport em todas as suas páginas da Web:
+
+<meta name="generator" cotent="FrontPage 4.0">
+           Especifica um dos pacotes de software usados para gerar o documento (não usado em páginas com autoria manual)
+           Indica o software usado para criar a página como forma de medir a popularidade do produto
+
+<meta name="copyright" content="Reserva os Direitos Autorias"
+
+<meta name="robots" content="index, follow">
+           Essa Meta Tag foi criada para passar orientações aos robots dos buscadores. Cada página deve ter o seu meta robots.
+           Veja alguns dos parâmetros que podem ser passados:
+
+          *index: indexe esta página - exiba-a em seus resultados de busca;
+          *noindex: não indexe esta página - não a exiba nos resultados de busca. Útil para páginas como de login e acesso à intranet;
+          *follow: siga os links desta pagina para descobrir novas páginas (reveja Googlebot, robots);
+          *nofollow: nenhum dos links desta página deve ser seguido;
+          *nosnippet: orienta o site de busca a não exibir a descrição da página nos resultados de busca;
+          *noodp: orienta o Google não utilizar a descrição do diretório DMOZ em seus resultados (snippet);
+          *noarchive: instrui o Google a não exibir a versão em cache da página;
+          *noimageindex: não indexe nehuma imagem da página.
+
+OBS: o comando para orientar ao Google a não indexar uma página pode também ser dado do arquivo robots.txt.
+
+<meta name="googlebot" content="NoIndex" />
+          Em adição com a meta tag "Robots", o Google suporta um commando "GoogleBoot". Dizendo ao google que
+          não quer que a página seja indexada.
+
+          Nota: A página continuará a ser indexada pelos outros buscadores
+
+<meta name="revisit-after" content="15 days" />
+          Diz para os servidores proxy refazer o cache da página depois de um tempo específico.
+
+          Esta meta tag não faz com que os motores de busca voltem para sua página, eles fazem isso em períodos aleatórios.                                  
+
+<meta name="rating" content="general" />
+          Esta tag funciona para classificar a página por censura, assim como no cinema, suporta os valores:
+
+          *General: Para qualquer idade
+          *14 years: Censura 14 anos
+          *Mature: Para pessoas acima de 18 anos 
+
+<meta name="DC.title" content="Mr.TheChessMan - Impressões Ideológicas" />
+          Desempenha a mesma função da tag "title", e deve conter o mesmo valor.
+
+<meta name="DC.creator " content="Gazola, André" />
+          Tem o mesmo papel da meta tag "Author"
+
+<meta name="DC.creator.address" content=mr.thechessman@gmail.com" />
+          E-mail para contato com o autor da página.
+
+<meta name="DC.subject" content="metadata, metatags, dublin core,web design" />
+          Tem a mesma função da meta "Keywords".
+
+DC.Description
+
+          Tem a mesma função da meta "Description".
+
+<meta name="DC.description" content="..aqui vai a descrição da página.." />
+
+DC.Publisher
+
+          Nome da organização que é responsável pelo documento.
+
+<meta name="DC.publisher" content="Info Web Design" />
+
+DC.Custodian
+
+          Normalmente, o webmaster responsável pela página.
+
+<meta name="Custodian" content="Gazola, André" />
+
+DC.Date.Created
+
+          Data de criação da página no formato AAAA-MM-DD.
+
+<meta name="DC.date.created" content="2006-02-01" />
+
+DC.Date.Modified
+
+          Última data de modificação do documento, importante para buscas por data.
+
+<meta name="DC.date.modified" content="2006-02-01" />
+
+DC.Identifier
+
+          URL do documento.
+
+<meta name="DC.Identifier" content="http://www.thechessman.org">
+
+DC.Format
+
+          Especifica o tipo de dados contidos no documento.
+
+          *Text/html;
+          *Text/xml;
+          *Text/html;
+          *Image/jpg;
+          *Image/gif;
+          *Video/quicktime;
+
+<meta name="DC.format" content="text/xhtml" />
+
+DC.Type
+
+          Text, Home Page, menu, image, vídeo, dados, software ou sound são alguns dos valores suportados.
+
+<meta name="DC.type" content="text.homepage.institucional" />
+         
+
+
+
+                                   Metadados para instalação
+
+     Os elementos de meta a seguir controlam como o atalho do Site Fixo é criado no menu Iniciar e na barra de 
+     tarefas do Windows 7.Todos esses elementos são opcionais, mas altamente recomendados para que você tenha 
+     maior controle sobre onde a página é iniciada,seu nome, melhor acessibilidade ou reconhecimento e tamanho 
+                                  personalizado na inicialização.
+
+
+
+<meta name="application-name" content="Channel 9 Audio Player" />
+           Especifica o nome do aplicativo da Web que o representante da página.
+           Os metadados "application-name" definem o nome da instância de 
+           aplicativo do Site Fixo. Esse é o nome que aparece em uma dica
+           de ferramenta quando se passa o mouse sobre o botão Site Fixo
+           na barra de tarefas do Windows 7. O nome do aplicativo também 
+           é acrescentado ao título da janela da instância de aplicativo do Site Fixo.
+
+<meta name="msapplication-tooltip" content="Channel 9 Podcasts" />
+           Os metadados "msapplication-tooltip" fornecem um texto de dica 
+           de ferramenta adicional que aparece quando você passa o mouse 
+           sobre o atalho do Site Fixo no menu Iniciar do Windows ou na área de trabalho.
+
+<meta name="msapplication-starturl" content="./" />
+           Os metadados "msapplication-starturl" contêm a URL raiz do aplicativo. 
+           A URL inicial pode ser totalmente qualificada ou relativa ao documento atual. 
+           Apenas os protocolos HTTP e HTTPS são permitidos. Quando o elemento não é encontrado, 
+           o endereço da página atual é usado em seu lugar.
+
+<meta name="msapplication-window" content="width=1024;height=768" />
+           Os metadados "msapplication-window" definem o tamanho inicial da janela do Site Fixo quando
+           ela é iniciada pela primeira vez. No entanto, se o usuário ajusta o tamanho da janela, 
+           o Site Fixo mantém as novas dimensões quando é iniciado de novo.
+
+                                   Metadados de tempo de execução
+    
+    Diferentemente dos valores do tempo de instalação, os metadados a seguir são lidos sempre que o usuário inicia o Site Fixo.
+    Por isso, os desenvolvedores de sites podem usar esses valores para modificar a experiência do usuário ao longo do tempo. 
+    A melhor forma de controlar alterações feitas a esses valores é defini-las na URL inicial do Site Fixo.
+
+<meta name="msapplication-navbutton-color" content="#FF3300" />
+           Os metadados "msapplication-navbutton-color" definem a cor personalizada dos botões Voltar e Avançar
+           na janela do navegador do Site Fixo. Qualquer cor nomeada ou valor de cor hexadecimal é válido. 
+                 Para ver uma lista completa dos nomes de cores, consulte Tabela de cores.
+
+<meta name="msapplication-task" content="#" />
+           Assim como os outros metadados do site, você define tarefas estáticas com elementos meta. A próxima tarefa,
+           Adicionando tarefas a uma Lista de Atalhos, explica como fazer isso.
+
+<meta name="msapplication-task-separator" content="#" />
+           Coloque esse elemento entre as tarefas para deixar uma linha visível no menu da Lista de Atalhos. 
+           Os separadores devem ser exclusivos declarando-se content="[unique value]" caso você tenha mais de um.
+
+<meta name="twitter:card" content="summary"/> <- Se refere ao tipo de visualização que será dada a foto
+<meta name="twitter:title" content=""/> <- Titulo do link
+<meta name="twitter:description" content=""/> <- Descrição do conteúdo do link
+<meta name="twitter:image" content=""/> <- Imagem que caracteriza o link
+
+
+&lt;meta property="og:title" content="Google adds coral reefs to maps"/&gt;
+ &lt;meta property="og:image" content="Caminho da imagem no servidor. Ex: img/img.jpg"/&gt;
+ &lt;meta property="og:url" content="http://www.bbc.co.uk/news/tech..."/&gt;
+ &lt;meta property="og:description" content="Google adds images coral reefs aroud the world to its street view mapping service after teaming up a with a group of scientists."/&gt;
+
+https://msdn.microsoft.com/pt-br/library/gg491732(v=vs.85).aspx
+http://www.linhadecodigo.com.br/artigo/3595/codigo-tag-o-que-e-meta-tag.aspx

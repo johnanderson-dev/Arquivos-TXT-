@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content= "Portifolio do canal Vendetta V Gamerz, aonde voçê pode fazer doações, receber novo vídeos do canal!"/>
+<meta name="keywords" content= "GTA, GTA 5, BF, BF4, BF1, Battlefield, CS:GO, Counter Strike, PC, Xbox, Playstation, Games, Youtuber"/>
+<meta name="robots" content="index"/>
+<title></title>
+</head>
+<style>
+</style>
+<body>
+</body>
+</hmtl>

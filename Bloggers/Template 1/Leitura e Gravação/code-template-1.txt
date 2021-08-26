@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='rockpool.xml' b:templateVersion='1.2.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+   
+
+<title>KryptoBit Info</title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin><![CDATA[
+
+
+
+body{ 
+   background-color: #008691;
+
+}
+           
+                              /* Logo príncipal */ 
+
+a{
+  color: gray;
+  text-decoration: none;
+  
+}
+
+a hover{
+  color: orange;  
+}
+                              /*Barra de Opçoes*/
+
+.barra-de-opcoes img{
+       width: 100%;
+       height: 50px;
+       position: absolute;
+       top: 295px;
+       left: 0px;
+}                  
+
+                          /* Icone Vendetta V Gamerz ( redendo ) */ 
+
+.avatarcontainer{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:200px;                                    /* 430 pixels do icone em relação ao top  */
+    left:630px;                                    /* 80 pixels do icone em relação a borda esquerda */
+    transition:width 0.4s ease-in-out;            /* Transição que você altera os valores suavemente */
+   -moz-transition:width 0.4s ease-in-out;        /* mozila firefox */
+   -webkit-transition:width 0.4s ease-in-out;     /* Safari */
+   -o-transition:width 0.4s ease-in-out;          
+}
+
+.avatarcontainer img{
+	height:auto;                              /* Altura do icone em si */
+	display:inline;
+	margin-top:-201px;                        /* distância do topo em relação ao topo */
+	transition:margin-top 0.2s ease-in-out; 
+	-moz-transition:margin-top 0.2s ease-in-out; 
+	-webkit-transition:margin-top 0.2s ease-in-out; 
+	-o-transition:margin-top 0.2s ease-in-out;
+}
+
+#outerheaderauthor.sticky .avatarcontainer img{
+        margin-top:500px;
+
+}                                                   
+
+
+.text-kryptobit{
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    width: 600px;
+}
+
+                              /* Menu */ 
+
+nav#menu-right{
+    display: block;
+
+}
+nav#menu-right h1{
+    display: none;
+
+
+}
+nav#menu-right ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 110px;
+    right: 230px;
+}
+
+nav#menu-right li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu-right li:hover{
+    background-color: #606060;
+
+}
+nav#menu-right a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu-right a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+
+
+nav#menu-left{
+    display: block;
+
+}
+nav#menu-left h1{
+    display: none;
+
+
+}
+nav#menu-left ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 110px;
+    left: 190px;
+}
+
+nav#menu-left li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu-left li:hover{
+    background-color: #606060;
+
+}
+nav#menu-left a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu-left a:hover{
+    color: white;
+    text-decoration: underline;
+
+
+}
+
+                                     /* CONTANEIR */ 
+
+
+#contaneir{
+    position: absolute; 
+    background: rgba(169, 162, 162, 0.8);
+    top:500px;
+    width: 1000px;
+    height:2350px;
+    left: 170px;
+    top: 400px;
+    border-radius: 7px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;  
+}
+
+#contaneir h1{
+  position: relative;
+  text-align: center;
+}
+#contaneir h2{
+  position: relative;
+  text-align: center;
+}
+#contaneir p{
+  position: relative;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+  text-indent: 50px;
+  text-shadow: 0.2px 0.2px #1c1c1c;
+  left: 175px;
+  width: 650px;
+
+}
+
+#contaneir img{
+  position: relative;
+  left: 175px;
+  border: solid 3px black;
+  border-radius: 7px;
+}
+
+#comment{
+  display: none;
+  position: absolute;
+  top: 2700px;
+  left: 350px;
+}
+.comment-file{
+   position: relative;
+   top: -30px;
+   left: 70px;
+
+}
+
+                                                 /* CONTADOR */ 
+
+#contador{
+   position: absolute;
+   top: 3500px;
+   right: 50px;
+}
+
+                                        /* RODAPÉ */ 
+
+
+.rodape{
+   background: rgb(66,66,66);
+   position: relative;
+   weidth: 100%;
+   height: 300px;
+   margin-bottom:-20px;
+   top: 3200px;
+   left: -13px;
+   border: 2px solid #000000;
+   border-radius: 2px;
+   border-top-left-radius: 10px; 
+   border-top-right-radius: 10px;
+   boder-shadow: 2px 2px 2px #000;
+   
+}
+
+#localizacao{
+   position: absolute;
+   top: 3250px;
+   
+   
+}
+
+#localizacao img{
+  width: 160px;
+  height: 110px;
+  border: solid 3px #00d15e;
+  border-radius: 7px;
+
+}
+#localizacao p{
+   color: rgb(0,209,94);
+   border-bottom: 2px solid #00d15e;
+   padding: 0px 0px 5px 5px;
+   font-family: 'Chela One', cursive;
+   font-size: 18px;
+   text-shadow: 2px 2px 2px #000;
+   
+}
+#endereco ul{
+   position: absolute;
+   color: rgb(0,209,94);
+   list-style: none;
+   top: 3320px;
+   left: 200px;
+   border-left: 2px solid #00d15e;
+   font-family: 'Chela One', cursive;
+   font-size: 15pt;
+   text-shadow: 2px 2px 2px #000;
+  
+}
+
+#rodape-sociais{
+   position: absolute;
+   top: 3250px;
+   left: 550px;
+}
+
+#rodape-sociais p{
+   font-size: 18px;
+   color: #FF7B0D;
+   border-bottom: 2px solid #FF7B0D;
+   padding: 0px 0px 5px 5px;
+   font-family: 'Chela One', cursive;
+   text-shadow: 2px 2px 2px #000;
+}
+rodape-sociais-feeds{
+  position:absolute;
+  color: white;
+
+}
+.rodape-sociais-feeds tr{
+  position: relative;
+  color: #FF7B0D;
+  list-style: none;  
+  left: 0px;
+  
+}
+
+.rodape-sociais-feeds td{
+  background: #494949;
+  border-radius: 7px;
+  marging-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+.rodape-sociais-feeds-tw img{
+  position: relative;
+  left: -30px;
+  top: 3px;
+}
+.rodape-sociais-feeds-tw a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-tw a:hover{
+  color: #8e24aa;
+
+}
+.rodape-sociais-feeds-fc img{
+  position: relative;
+  left: -20px;
+  top: 3px;
+}
+.rodape-sociais-feeds-fc a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-fc a:hover{
+  color: #8e24aa;
+
+}
+.rodape-sociais-feeds-in img{
+  position: relative;
+  left: -20px;
+  top: 3px;
+}
+.rodape-sociais-feeds-in a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-in a:hover{
+  color: #8e24aa;
+
+}
+.rodape-sociais-feeds-g img{
+  position: relative;
+  left: -30px;
+  top: 3px;
+}
+.rodape-sociais-feeds-g a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-g a:hover{
+  color: #8e24aa;
+
+}
+#google_translate_element{
+   position: absolute;
+   top: 3250px;
+   left: 1000px;
+   text-shadow: 2px 2px 2px #000;
+}
+
+#rodape-develope p{
+   position: absolute;
+   top: 3450px;
+   left: 1000px;
+   text-shadow: 2px 2px 2px #000;
+   color: rgba(160,160,158,1);
+   font-family: 'Pacifico', cursive;
+}
+#rodape-develope p a:hover{
+  color: #8e24aa;
+
+}
+]]></b:skin>
+</head>
+<body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
+
+
+<header>
+                                        <!--Logo Header-->
+ 
+<div class='avatarcontainer'>
+  <img alt='' class='avatar avatar-123 photo' height='123' id='photo' onclick='transitionInstagram()' src='https://preview.ibb.co/hhrRtJ/Background_Verde.png' width='123'/>
+ </div>
+
+<div class='follow'>
+  <img alt='' height='150px' src='' width='300px'/>  
+</div>
+  
+                                    <!--Texto KryptoBit Info-->
+
+  <img alt='' class='text-kryptobit' src='https://preview.ibb.co/cxnvmo/Texto_Krypto.png'/>
+</header>
+                                              <!-- Feeds -->
+
+  
+
+                                                          <!-- Menu -->	
+    	
+
+<nav id='menu-right'>
+<h1> Menu Principal</h1>
+<ul>
+<li><a href='https://kryptobitinfo-interfaces.blogspot.com/' target='_self'>Interfaces</a></li>
+  <li><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Leitura e Gravação</a></li>
+</ul>
+</nav>
+
+<nav id='menu-left'>
+<h1> Menu Principal</h1>
+<ul>
+  <li><a href='https://kryptobitinfo-historiadohd.blogspot.com/' target='_self'>História do HD</a></li>
+  <li><a href='https://kryptobitinfo-sistemadearquivos.blogspot.com/' target='_self'>Sistemas de Arquivos</a></li>
+</ul>
+</nav>
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ 
+</div>
+
+<div id='contaneir'>
+
+  <h1>Como é feita a Leitura e Gravação de dados no HD?</h1>
+
+<hgroup>
+<p>
+Os discos que ficam internamente no HD são cobertos por um material magnético que geralmente é composto por oxido de ferro. Na cabeça de leitura e gravação existe polaridade em sua extremidades, aonde essa polaridade com altas frequências alteram as moléculas do material magnético, de tal forma que se a polaridade for positiva atrairá a negativa e assim fazendo a gravação dos bits. No processo de leitura a cabeça de leitura e gravação &quot;lê&quot; o campo magnético gerado pelas moléculas e gera uma corrente elétrica correspondente, cuja variação é analisada pelo controlador do HD para determinar os bits (0 e1).
+</p>
+  
+</hgroup>
+
+<img src='https://preview.ibb.co/keiPu8/Modifica_o_das_Moleculas_pela_Cabe_a.png'/> 
+
+<hgroup>
+  
+ <p>As trilhas são círculos que começam no centro do disco e vão até a sua borda, como se estivessem um dentro do outro. Estas trilhas são numeradas da borda para o centro, isto é, a trilha que fica mais próxima da extremidade do disco é denominada trilha 0, a trilha que vem em seguida é chamada trilha 1 e assim por diante &#8212; até chegar à trilha mais próxima do centro. Cada trilha é dividida em trechos regulares chamados de setores. Cada setor possui uma capacidade determinada de armazenamento (geralmente, 512 bytes).
+
+</p>
+
+</hgroup>  
+
+<img src='https://preview.ibb.co/c8fHu8/Leitura_e_grava_o_no_HD.png'/>
+
+ <hgroup>
+   <h2> Participação do Braço de leitura e Gravação no processo.</h2> 
+   <p>A movimentação do braço do disco rígido é feita através de dois poderosos ímãs de neodímio, localizados em cada um de seus lados. A passagem de correntes elétricas de diferentes intensidades faz com que a potência de cada ímã seja alterada, o que ocasiona a movimentação dos braços e, consequentemente, das cabeças de leitura.</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/ndSpST/Bra_o_de_Leitura_e_Grava_o.png'/>
+
+<hgroup>
+   <h2> Participação da Cabeça de leitura e Gravação no processo.</h2> 
+   <p>A gravação e a leitura dos dados são feitas através de minúsculos eletroímãs presentes nas cabeças de leitura do disco rígido. Compostos de uma bobina de fios que envolvem um núcleo de ferro, esses ímãs são extremamente precisos, o que permite a gravação de trilhas medindo centésimos de milímetros.</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/gwc0Z8/Cabe_a_de_Leitura_e_Grava_o.png'/>
+
+</div>
+<div class='rodape' style='width:1350px'/>
+
+
+                            <!-- Comentarios -->
+
+
+<div id='comment'>
+  <h3> Comentário </h3>
+<form action='#' method='get'>
+
+  
+  
+     Assunto:<br/>
+   <input name='fullname' size='103px' type='text'/><br/><br/>
+  
+     E-mail:<br/>
+     <input name='emailaddress' size='103px' type='email'/><br/><br/>
+
+       
+      Mensagem:<br/>
+<textarea cols='78' maxlength='550' rows='10'/>
+   <br/>
+ 
+<input height='70' onclick='msg()' src='https://preview.ibb.co/duofmo/Submit_Button.png' type='image' width='100'/>
+<input class='comment-file' name='myFile' type='file'/>
+</form>
+<script>
+function msg() {
+    alert(&#39;Indisponivel no momento!&#39;);
+}
+</script>
+
+</div>
+
+
+                                                 <!-- CONTADOR -->      
+                              
+<div align='center' id='contador'>
+   <a href='https://contador.s12.com.br'>
+     <img alt='contador de acesso grátis' border='0' src='https://contador.s12.com.br/img-72aZx717xZ9c007b-57.gif'/>
+   </a>
+    <script src='https://contador.s12.com.br/ad.js?id=72aZx717xZ9c007b' type='text/javascript'/>
+</div>
+
+<!-- RODAPÉ -->
+
+<div id='localizacao'>
+  <p>KryptoBit - Localização</p>
+  <img src='https://1igr.com/wp-content/uploads/2016/06/hyperlocal-research.jpg'/>
+</div>
+<div id='endereco'>
+  <ul>
+   <li>Brazil</li>
+   <li>Fortaleza-CE</li>
+   <li>Bairro: João XXIII</li>
+  </ul>
+ </div>
+
+<div id='rodape-sociais'>
+  <p> Redes Sociais: </p>
+
+ <div class='rodape-sociais-feeds'> 
+<table cellpadding='5px' cellspacing='5px'>
+    <tr>
+      <td class='rodape-sociais-feeds-fc'><img height='20px' src='https://image.ibb.co/iwoa48/facebook_circle_gray_512.png' width='20px'/><a href='https://www.facebook.com/kryptobitinfo/' target='_blank'>Facebook</a></td>
+        
+    </tr>
+<tr>
+      <td class='rodape-sociais-feeds-in'><img height='20px' src='https://image.ibb.co/bNBOro/Insta.png' width='20px'/><a href='https://www.instagram.com/kryptobit_oficial' target='_blank'>Instagram</a></td>
+        
+    </tr>
+<tr>
+        <td class='rodape-sociais-feeds-tw'><img height='23px' src='https://image.ibb.co/icswBo/twitter_logo_icon_icons.png' width='23px'/><a href='https://twitter.com/kryptobit_info' target='_blank'>Twitter</a></td>
+        
+    </tr>
+<tr>
+<td class='rodape-sociais-feeds-g'><img height='20px' src='https://image.ibb.co/dknwBo/gmail_logo_PNG12.png' width='26px'/><a href='mailto:kryptobitoficial@gmail.com' target='_blank'>E-mail</a></td>
+        
+    </tr>
+   </table>  
+</div>
+
+</div>
+                                                      <!-- Tradutor -->
+
+<div id='google_translate_element'/>
+<div id='rodape-develope'>
+  <p>Develope:<a alt='' href='' target='_self'>John Anderson</a> </p>
+</div>
+<script type='text/javascript'>
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: &#39;en&#39;}, &#39;google_translate_element&#39;);
+}
+</script>
+
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'/>
+
+</body>
+</html>

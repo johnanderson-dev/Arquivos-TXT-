@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <link href='css/mobile.css' media='(max-width: 320px)' rel='stylesheet'/>    
+
+<title>KryptoBit Info</title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin><![CDATA[
+@import url ('https://fonts.googleapis.com/css?family= Pacifico '); 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+
+
+body{
+  background: #dac8be;
+  
+}
+
+h1{
+  font-family: Arial;
+  font-size: 30pt;
+  color: #4bf7a0;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+} 
+
+h2{
+  font-family: Arial;
+  font-size: 20pt;
+  color:  #4bf7a0;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+} 
+
+                                 /* Barra Top Menu */ 
+
+.barra-Header{
+  position: fixed;
+  background: rgba(112,109,104,.8);
+  height: 80px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.barra-Header img{
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+
+}
+
+
+                                   /* Menu */ 
+
+nav#menu{
+  position: relative;  
+  display: block;
+  bottom: 103px;
+  left: 200px;
+  width: 850px;
+  height: 75px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+   
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    border: 1px solid gray; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu li:hover{
+    background-color: #606060;
+
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+                                  /* Icone redondo da barra do menu */ 
+
+
+
+#icon-bar-header{
+    position: relative;
+    left: 1150px;
+    bottom: 230px;
+    
+}
+#icon-bar-header-kryptobit{
+     position: relative;
+     left: 992px;
+     bottom: 237px;
+   
+
+}
+                                     /* Contaneir Corpo */ 
+
+
+
+
+
+#contaneir{
+   position: absolute;
+   background: rgba(112,109,104,.8);
+   border: 1px solid gray;
+   border-radius: 3px 3px;
+   margin:  100px 160px 100px 160px;
+   width: 1000px;
+   height: 4300px;
+   box-shadow: 3px 3px 3px gray;
+}
+
+
+#contaneir p{
+  position: relative;
+  text-align: justify;
+  text-indent: 50px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 12pt;
+  width: 635px;
+  left: 170px;
+}
+#contaneir img{
+  position: relative;
+  left: 170px;
+  border: solid 2 px gray;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px black;
+  
+}
+
+#contaneir span, i, em{
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+  color: #2d888d;
+  
+}
+
+#contaneir strong, b, small{
+  color: #2a9e79;
+  
+}
+
+
+#contaneir ul{
+  position: relative;
+  list-style: none;
+  color: white;
+}
+
+#contaneir li{
+  position: relative;
+  left: 170px;
+  font-family: 'Fredoka One', cursive; 
+  text-shadow: 3px 3px 3px black;
+}
+
+                              /* Tabela Modo PIO */
+
+.table-PIO{
+   position: relative;
+   border: 1px solid black;
+   left:400px;
+   background: black;
+  
+}
+.table-PIO tr{ 
+   background: gray;
+  
+}
+.table-PIO td{
+   text-align: center;
+  
+}
+#table-PIO-tr{
+  background: #2a9e79;
+  color: white;
+ 
+
+}
+
+                   
+
+
+                           /* BANDEIRAS PATA TRADUÇÃO DA PÁGINA */
+
+
+
+.translate-flag{
+   position: fixed;
+   top: 250px;
+   right: 0px;
+   height: 252px;
+   width: 50px;   
+}
+
+
+#translate-flag-brasil{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}  
+
+#flag-brasil-fundo{
+  position: relative;
+  border: solid 1px gray; 
+  border-radius: 15px 0px 0px 15px;
+  width: 100px;
+  height: 50px;
+  background: rgba(112,109,104,.8);
+  
+}
+
+#translate-flag-usa{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#flag-usa-fundo{
+  position: relative;
+  border: solid 1px gray; 
+  border-radius: 15px 0px 0px 15px;
+  width: 100px;
+  height: 50px;
+  background: rgba(112,109,104,.8);
+  top: 50px;
+}
+
+#translate-flag-china{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}                    
+
+#flag-china-fundo{
+  position: relative;
+  background: rgba(112,109,104,.8); 
+  top: 100px;
+  width: 100px;
+  height: 50px;
+  border: solid 1px gray;
+  border-radius: 15px 0px 0px 15px;
+}
+
+
+                                     /* Rodapé Superior */
+
+
+.rodape-superior{
+   position: absolute;
+   background:#3c3a3a;
+   height: 100px;
+   top: 4583px;
+   left: 0px;
+}
+
+
+
+                                /* Icones Feeds Rodapé */
+
+#facebook-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:200px;
+   
+}
+
+#instagram-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:425px;
+
+}
+
+#twitter-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:700px;
+
+}
+
+#gmail-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:975px;
+
+}
+
+                          /* Rodapé Inferior */
+
+.rodape-inferior{
+   position: absolute;
+   background:#4c4a47;
+   width: 100%;
+   height: 470px;
+   top: 4663px;
+   left: 0px;
+   border-top: 2px  solid black;
+   z-index: 1;
+}
+
+
+                        /* AREA DE CONTATO RODAPÉ */
+
+#contato-rodape{
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+}                         
+
+#icon-email-contato-rodape{
+   position: relative;  
+   top: 50px;
+   left:900px;
+  
+
+}
+
+#text-email-contato-rodape{
+   position: relative;  
+   color: #fa8d57;
+   bottom: 25px;
+   left:958px;
+   font-size: 20px;
+   font-family: 'Pacifico', cursivo;
+   text-shadow: 2px 2px black;  
+
+}
+
+.barra-contato-rodape{
+   position: relative;
+   background: #fa8d57;
+   border: 1px solid black;
+   height: 4px;
+   left: 910px;
+   bottom: 30px;
+   box-shadow: 1px 1px black;
+}  
+
+
+                      /* Formulario */
+
+
+.formulario {
+  position: relative;
+  top: 0px;
+  left: 900px;
+
+}
+
+.formulario form{
+   background: rgba(250,141,87,.8);
+   width: 200px;
+   margin: 0 auto;
+   padding: 1em;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+
+}
+
+.formulario form div{
+   margin-top: 1em;
+   margin-left: -5px;
+
+}
+
+.formulario label{
+   display: block;
+   width: 100px;  
+   font-size: 17px;
+   font-family: 'Bree Serif', serif;
+   
+   
+}
+
+.formulario input, textarea{
+   border-radius: 10px;
+   width: 200px;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 1px solid #999;
+   padding: 5px;
+   font-family: 'Inconsolata', monospace;
+   font-size: 10px;
+   
+}
+
+.formulario textarea{
+   height: 80px; 
+ 
+
+}
+
+.formulario input:focus, textearea:focus{
+   border-color: #000;  
+}
+
+.formulario button{
+   border: 1px solid #999;
+   border-radius: 5px ;
+   width: 80px; 
+   height: 20px;
+}
+
+.button-formulario{
+  
+}
+
+
+                               /* LOCALIZAÇÃO RODAPÉ */
+
+
+.localization{
+   position: absolute;
+   top: 4700px;
+   right: 550px;
+   width: 300px;
+   height: 300px;
+   z-index: 1;
+}
+#localization-top img{
+   position: relative;
+   left: 0px;
+}
+#localization-top{
+   height: 80px;
+}
+
+#localization-top p{
+   position: relative;
+   color: #00ff6c;
+   left: 50px;
+   bottom: 60px;
+   font-size: 20px;
+   font-family: 'Bree Serif', serif; 
+   text-shadow: 3px 3px black;
+}
+
+.barra-localization-rodape{
+   position: relative;
+   background: #00ff6c;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 10px;
+   bottom: 70px;
+   box-shadow: 1px 1px black;
+}
+
+#localization-bottom{
+   position: absolute;
+   background: rgba(0,255,108,.8);
+   width: 280px;
+   left: 5px;
+   top: 100px;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+#localization-bottom p{
+   postion: relative;
+   top: 0px;
+   left: 45px;
+   color: white;
+   font-family: 'Fredoka One', cursive;
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+   text-shadow: 2px 2px 2px black;
+}
+
+
+#localization-bottom img{
+  position: relative;
+  top: 0px;
+  left: 85px;
+}
+
+
+                                 /* DESENVOLVEDOR */
+
+#text-developer{
+  position: absolute;
+  top: 5080px;
+  left: 550px;
+  color: #9f9b9b;
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px;
+  z-index: 1;
+}
+
+#text-developer a{
+  color: #9f9b9b;
+  text-decoration: none;  
+}
+
+#text-developer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+                         /*DESCRIÇÃO "SOBRE" MAIS MINI MENU */
+
+.about-us{
+   position: absolute;
+   left: 50px;
+   top: 4680px;
+   z-index: 1;
+
+}
+.about-us img{
+   position: relative;
+   padding: auto;
+   margin: auto;
+   left: 10px;
+}
+
+.about-us p{
+   position: relative;
+   bottom: 50px;
+   left: 75px;
+   color: #a559d6;
+   font-size: 18px;
+   font-family: 'Fredoka One', cursive;
+   text-shadow: 3px 3px black;
+ 
+}
+
+.barra-about-us{
+   position: relative;
+   background: #a559d6;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 5px;
+   bottom: 55px;
+   box-shadow: 2px 2px black;  
+
+}
+
+.about-us ul{
+  position: relative;
+  list-style: none; 
+  background:rgba(165,89,214,.8);
+  width: 160px;
+  height: 300px;
+  left: 5px;
+  bottom: 30px;
+  border: 2px solid black;
+  border-radius: 1em;
+  box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+.about-us li{
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  right: 40px;
+  font-family: 'Pacifico', cursivo;
+  font-size: 15px;
+  text-shadow: 3px 3px black;
+}
+.about-us a{
+   color: white;
+   text-decoration: none;
+}
+.about-us a:hover{
+   color: gray;
+   text-decoration: underline;
+}
+
+                       
+                                  /* LOGO RODAPÉ KRYPTOBIT COM DATA DE CRIAÇÃO*/
+
+.logo-kryptoBit-rodape{
+   position: absolute;
+   top: 4950px;
+   left: 200px;
+   z-index: 1;
+} 
+ 
+.logo-kryptoBit-rodape img{
+   position: absolute;
+   padding-bottom: 1em;
+   left: 120px;
+}
+
+.logo-kryptoBit-rodape p{
+    position: absolute;
+    color: #9f9b9b;
+    top: 120px;
+    left: 80px;
+    width: 200px;
+    padding-left: 3em;
+}
+
+
+                 
+
+
+]]></b:skin>
+</head>
+<body>
+
+<div class='barra-Header' style='width: 100%'>
+<img  src="https://image.ibb.co/iVgDwV/Letra-KB.png" alt="KryptoBit" border="0" width="100px" height="100px"/>
+
+
+                                                          <!-- Menu -->	
+    	
+
+<nav id='menu'>
+ <h1> Menu Principal</h1>
+  <ul>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/cMbTWV/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinfo-interfaces.blogspot.com/' target='_self'>Home</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/gJ1xQq/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>História do HD</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/idA28A/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Interface</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/eEMOgV/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Leitura e Gravação</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/e0pjMV/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Sistema de Arquivos</a></li>
+ </ul>
+</nav>
+
+
+
+
+<img id='icon-bar-header' src="https://image.ibb.co/c2yeLq/Vetor.png" width="140px" height="140px"/>
+<img id='icon-bar-header-kryptobit' src="https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png" width='110px' height='110px'/>
+<script>
+   function mudaFoto (foto){
+     document.getElementById("icon-bar-header-kryptobit").src = foto;
+}
+
+</script>   
+
+</div>                                                                          <!-- SLIDE -->
+
+
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ </div>
+
+
+<div id='contaneir'>
+
+
+<hgroup>
+
+<h1>Interface IDE</h1>
+
+<p>
+Antes da tecnologia <em>IDE</em>, as interfaces eram acopladas a uma placa controladora que eram conectadas ao <b>HD</b>, porém, 
+esse tipo de tecnologia trazia uma seria de problemas. Não demorou muito para que os fabricantes percebessem isso. 
+Desenvolve-se então o padrão <em>IDE (Integrated Drive Eletronics)</em>, como o próprio nome já diz: Unidade Eletrônica Integrada. 
+No caso a controladora integrada no próprio <b>HD</b> que oferecem diversas vantagens, pois elimina os problemas de sincronismo causados 
+pelo uso de cabos longos e simplifica todo o design.
+</p>
+  
+</hgroup>
+
+<img src='https://preview.ibb.co/mqUJbK/Controladora_MFM.png'/> 
+
+<hgroup>
+  
+<p>
+Em 1986 chegaram ao mercado os novos padrões <b>IDE</b>, mas inicialmente os primeiros anos foram marcados por problemas de compatibilidade entre 
+os diferentes produtos de diferentes fabricantes. O <em>ANSI (American National Standards Institute)</em>, em 1990, aplicou as devidas correções para 
+padronização e foi criado o padrão <em>ATA (Advanced Technology Attachment).</em> Porém com o nome <b>IDE</b> já estava mais conhecido, ele permaneceu, 
+embora algumas vezes fosse chamado de <b>IDE/ATA.</b>
+</p>
+
+</hgroup>  
+
+<img src='https://preview.ibb.co/m4aNo9/IDE_Padr_o_ANSI.png'/>
+
+ <hgroup>
+<p>
+Com a popularização deste padrão, as <b>placas-mãe</b> passaram a oferecer dois conectores <em>IDE (IDE 0 ou primário; e IDE 1 ou secundário)</em>, 
+sendo que cada um é capaz de conectar até dois dispositivos. Essa conexão é feita ao HD (e a outros dispositivos compatíveis com a interface) 
+por meio de um <em>cabo flat (flat cable) de 40 vias</em>. Posteriormente, chegou ao mercado um <em>cabo flat de 80 vias,</em> cujos fios extras servem para evitar 
+a perda de dados causada por ruídos (interferência).
+</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/cLHtVp/Interface_IDE_40_Vias_vs_80_Vias.png'/>
+
+<hgroup>
+<p>
+Para fazer a conexão de dois dispositivos em um único cabo <b>Flat IDE</b>, faz se o uso de uma peça chamada <em>Jumper</em>, 
+que fica encaixada na parte traseira do <b>HD</b> entre o conector <b>IDE</b> e a <em>entrada de alimentação (Molex)</em>, tornando-o 
+com o uso desse <i>Jumper</i> o dispositivo primário. Se caso houver dois HDs <b>"setados"</b> igualmente como primários ou secundários 
+ou caso de problema de conexão nas conexões de <em>máster e slave</em>, o computador poderá ter dificuldades para reconhecê-los. 
+Nesse caso existi uma terceira opção que é <em>“Cable Select”.</em> Esta configuração faz com que a escolha da unidade primária normalmente 
+fique para o dispositivo conectado na ponta do cabo e a secundária com o aparelho que é interligado ao encaixe existente no meio do cabo.
+</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/f2xHrU/Posi_o_do_Jumper_Master_Slave_Cable_Select.png'/>
+
+<hgroup>
+ 
+<h2>EIDE (Enhanced Integrated Drive Electronics)</h2>   
+
+<p>
+<em>EIDE (Enhanced IDE)</em> é uma extensão da <b>IDE</b> desenvolvida pela <em>Western Digital,</em> é ele que possibilita ser feito a conexão de 4 dispositivos 
+na <i>placa-mãe</i> , como também, trabalha com possibilidades de <i>taxa de transferências maiores entre 4 e 16,6 MBps,</i> cerca de três a quatro vezes 
+mais rápido que o padrão IDE antigo. Além disso, ele pode suportar dispositivos de <i>armazenamento em massa de até 8,4 gigabytes,</i> enquanto o 
+padrão antigo era limitado a 528 MB. Devido ao seu baixo custo, o <b>EIDE aprimorado</b> substituiu o <em>SCSI</em> em muitas áreas. O <b>EIDE</b> é muitas vezes 
+chamado de Fast ATA ou Fast IDE, que é essencialmente o mesmo padrão, desenvolvido e promovido pela Seagate Technologies. Também é chamado às vezes de ATA-2.
+Existem quatro modos <em>EIDE</em> definidos. O mais comum é o <em>Modo 4</em>, que suporta taxas de transferência de 16,6 MBps. Há também um novo modo, 
+chamado <em>ATA-3</em> ou <em>Ultra ATA</em> , que suporta taxas de transferência de 33 MBps.
+</p>
+
+</hgroup>  
+
+
+
+<hgroup>
+<h2>ATAPI (Advanced Technology Attachment Packet Interface)</h2>
+    
+<p>
+Na interface <b>IDE</b> há também a possibilidade de se conectar até 4 dispositivos graças a tecnologia <strong>(EIDE)</strong>, aonde se podia exclusivamente conectar-se 
+apenas <em>disco-rígidos</em>. Dispositivos <b>CD-ROMs</b> e drives de fita utilizavam interfaces proprietárias ou <em>interface de disquetes(FDD).</em> Para que 
+se houvesse conexões de outros dispositivos, criou-se então uma extensão do protocolo <b>IDE/ATA</b> que foi a tecnologia <em>ATAPI 
+(Advanced Technology Attachment Packet Interface).</em> Vale lembrar que o próprio computador, por meio de sua <em>BIOS e/ou do chipset da placa-mãe,</em> 
+reconhece que tipo de aparelho está conectado em suas entradas <b>IDE</b> e utiliza a tecnologia correspondente (em geral, ATAPI para unidades de CD/DVD e outros, 
+ATA para discos rígidos).
+</p>
+ </hgroup>  
+
+
+<hgroup>
+<h2>DMA (Direct Memory Access)</h2> 
+<p>
+<em>DMA</em> é uma sigla relacionada com o mundo da tecnologia que significa <em>Direct Memory Access,</em> ou em português <em>Acesso Direto à Memória</em>. 
+O <i>DMA</i> é uma característica dos computadores mais modernos que possibilita que determinados subsistemas de hardware dentro do computador 
+acessem a memória do sistema, sem depender da unidade de <b>processamento central (CPU).</b> O <i>DMA</i> é um recurso da <b>placa mãe</b> que capacita os 
+periféricos a terem acesso direto à <b>memória RAM</b>, sem sobrecarregarem o processador. Com o <i>DMA,</i> as transferências de dados ocorrem sem 
+a intervenção da <b>CPU</b> por cada byte que é transferido. Desta forma, a transferência de dados ocorre de forma muito mais rápida. 
+Muitos sistemas de hardware usam o processo <i>DMA</i>, incluindo <b>controladores de disco, placas de vídeo, placas de rede e placas de som.</b>
+Quando o <i>DMA</i> não está em uso, normalmente é utilizado um esquema de transferência de dados conhecido como modo <em>PIO (Programmed I/O),</em> 
+onde, grossamente falando, o processador executa a transferência de dados entre o HD e a memória RAM. Cada modo <i>PIO</i> trabalha com uma 
+taxa distinta de transferência de dados, conforme mostra a seguinte tabela:
+</p>
+ 
+ <table cellpadding='5px' cellspacing='2x' class='table-PIO'>
+ <tr id='table-PIO-tr'>
+   <td>Modo PIO</td>
+   <td>Taxa de transferência</td>
+ </tr>
+ <tr>
+   <td>Modo 0</td>
+   <td>3,3 MB/s</td>
+ </tr>
+ <tr>
+   <td>Modo 1</td>
+   <td>5,2 MB/s</td>
+ </tr>
+ <tr>
+   <td>Modo 2</td>
+   <td>8,3 MB/s</td>
+ </tr>
+ <tr>
+   <td>Modo 3</td>
+   <td>11,1 MB/s</td>
+ </tr>
+ <tr>
+   <td>Modo 4</td>
+   <td>16,7 MB/s</td>
+ </tr>
+ <tr>
+   <td>Modo 5</td>
+   <td>20 MB/s</td>
+ </tr>
+ </table>
+
+
+</hgroup>  
+
+
+<hgroup>
+   
+<h2>UDMA ou Ultra-DMA (Ultra Direct Memory Access)</h2>
+ <p>
+Esta especificação permite transferência de dados em uma taxa de, pelo menos, <b>33,3 MB/s (megabytes por segundo).</b> 
+O padrão <em>UDMA</em> não funciona se somente for suportado pelo <b>HD</b> - é necessário que a <b>placa-mãe</b> também a suporte (na verdade, o seu <b>chipset</b>), 
+caso contrário, o <b>HD</b> trabalhará com uma taxa de transferência mais baixa. Veja o porquê: há 4 tipos básicos de <em>Ultra-DMA: UDMA 33, UDMA 66, 
+UDMA 100 e UDMA 133.</em> Os números nestas siglas representam a quantidade de megabytes transferível por segundo. Assim, <b>o UDMA 33</b> transmite ao 
+computador dados em até 33 MB/s; o <b>UDMA 66</b> faz o mesmo em até 66 MB/s e assim por diante. Agora, para exemplificar, imagine que você instalou 
+um <b>HD UDMA 133</b> em seu computador. 
+No entanto, a <b>placa-mãe</b> só suporta <i>UDMA de 100 MB/s.</i> Isso não significa que seu HD vai ficar inoperante. O que vai acontecer é que seu computador 
+somente trabalhará com o <b>HD</b> na taxa de transferência de até 100 MB/s e não na taxa
+ </p>
+ </hgroup>  
+
+
+
+<hgroup>
+
+<h2>Interface SATA (Serial Advanced Technology Attachment)</h2>
+ <p>
+A especificação <em>SATA (Serial ATA)</em> se tornou padrão no mercado, já que oferece várias vantagens em relação ao <b>PATA,</b> 
+como maiores taxas de transmissão de dados, dispensa de uso de jumpers, cabos de conexão e alimentação mais finos 
+(facilitando a circulação de ar dentro do computador), entre outros.
+  </p>
+  <p>
+A interface <em>SATA</em> não conta com o esquema de permitir dois dispositivos por cabo, mas isso não chega a ser um problema: 
+como seu conector é pequeno, sua instalação é mais fácil, por isso, é comum encontrar <b>placas-mães</b> que possuem quatro, 
+seis ou até oito conectores neste padrão.
+ </p>
+ </hgroup>  
+
+
+  
+
+
+</div>
+
+                                       <!-- BANDEIRAS PARA TRADUÇÃO DA PÁGINA -->
+
+
+
+<div class='translate-flag'>
+ <div id="flag-brasil-fundo">
+  <img id='translate-flag-brasil' src="https://image.ibb.co/gYWEjU/Flag-Brasil.png" width='30px' height='30px'/>
+ </div>
+ <div id="flag-usa-fundo">
+  <a href="#"><img id='translate-flag-usa' src="https://image.ibb.co/fsETB9/Flag-USA.png" width='30px' height='30px'/></a>
+ </div>
+ <div id="flag-china-fundo">
+  <a href="#"><img id='translate-flag-china' src="https://image.ibb.co/bWU9jU/Flag-China.png" width='30px' height='30px'/></a>
+ </div>
+</div>
+
+
+                                            
+                                             <!-- RODA SUPERIO E FEEDS -->
+
+<div class='rodape-superior' style='width: 100%'>
+
+  <a href='https://www.facebook.com/'><img height='50px' id='facebook-icon-rodape' src='https://image.ibb.co/di1PiA/Facebook-1.png' width='50px'/></a>
+
+  <a href='https://www.facebook.com/'><img height='55px' id='instagram-icon-rodape' src='https://image.ibb.co/iWG2B9/Instagram.png' width='55px'/></a>
+
+  <a href='https://www.facebook.com/'><img height='55px' id='twitter-icon-rodape' src='https://image.ibb.co/dE8qW9/Twitter.png' width='55px'/></a>
+
+  <a href='https://www.facebook.com/'><img height='55px' id='gmail-icon-rodape' src='https://image.ibb.co/kBHTJp/G_Mail.png' width='55px'/></a>
+  
+</div>
+
+
+
+
+                                   <!-- RODAPÉ INFERIOR -->
+
+
+<div class='rodape-inferior' style='width: 100%'>
+ 
+ 
+
+
+                                        <!-- CONTATO E FORMULARIO RODAPÉ -->
+
+
+ <div id='contato-rodape'>
+    <img id='icon-email-contato-rodape' src="https://image.ibb.co/eu6YjU/Email.png"  width='55px' height='55px'/>
+    <p id='text-email-contato-rodape'>Fale Conosco:</p>
+    <div class='barra-contato-rodape' style='width: 232px;'/>
+
+<script>
+  function validacao(){
+    if(document.form.nome.value=="") {
+         alert("Por favor, preencha o campo nome.");
+         document.form.nome.focus();
+         return false; 
+  }
+
+
+    if(document.form.email.value=="" \\ document.form.email.value.indexOf('@')==-1 \\ document.form.email.value.indexOf('.')==-1){
+          alert("Por favor, digite um endereçõ de e-mail válido");
+          document.form.email.focus();
+          return false;
+
+
+}
+
+
+    if(document.form.senha.value.length 8) {
+          alert("A senha não pode conter menos que 8 caracterres.")
+          document.form.senha.focus();
+          return false;
+ }
+
+}
+
+
+
+</script>
+
+
+     <div class='formulario'>
+      <form name='form' action='page.com' method='post' onSubmit='return validacao()'>
+        <div>
+           <label for='name'>Name:</label>
+           <input type='text' value='Digite seu Nome' id='nome' name='usuario_name'/>
+        </div>
+  
+        <div>
+           <label for='email'>E-mail:</label>
+           <input type='email' value='Digite seu E-mail' id='email' name='usuario_email'/>
+        </div>
+
+        <div>
+           <label for='msg'>Mensagem:</label>
+           <textarea id='msg' name='usuario_msg'>Digite sua Mensagem</textarea>
+        </div>
+ 
+       <div class='button-formulario'> 
+           <button type='submit'>Enviar</button>
+       </div>
+     </form>
+    </div>
+ </div>
+</div>
+
+
+                                                     <!-- LOCALIZAÇÃO RODAPÉ -->
+
+
+
+<div class='localization'>
+     <div id='localization-top'>
+       <img src="https://image.ibb.co/n2ZCEU/Localiza_o.png" width='50px' height='50px'/>
+         <p>KryptoBit Localização</p>   
+         <div class='barra-localization-rodape' style='width: 270px;'/>  
+      </div>
+      <div id='localization-bottom'>   
+          <p id='localization-text-endereco'>Fortaleza-CE / Brasil</p>
+          <img id='localization-img-mapa' src="https://image.ibb.co/dzVKDp/Mapa.png" width='120px' height='120px'/>
+       </div>
+</div>
+
+     <p id='text-developer'>Desenvolvedor:<a href='#'> John Anderson</a></p>
+
+ <div class='about-us'>
+   <img src="https://image.ibb.co/cvwFM9/Contato.png" width='50px' height='50px'/>
+      <p>Sobre:</p>
+      <div class='barra-about-us' style='width: 200px;'/> 
+ 
+   <ul>
+       <li><a href='#'>Inicio</a></li>       
+       <li><a href='#'>Sobre</a></li>
+       <li><a href='#'>Serviços</a></li>
+   </ul>
+        
+ </div>
+
+                                                <!-- LOGO RODAPÉ KRYPTOBIT -->
+
+ 
+ <div class='logo-kryptoBit-rodape'>
+   <img src="https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png" width='120px' height='120px'/>
+  <p>Krypto Bit - 2018</p>
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,353 @@
+<html>
+
+<head>
+
+<style type="text/css">
+
+body {
+      
+      background: #d2ff52; /* Old browsers */
+      
+      background: -moz-linear-gradient(top, #d2ff52 0%, #91e842 100%); /* FF3.6+ */
+      
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d2ff52), color-stop(100%,#91e842)); /* Chrome,Safari4+ */
+      
+      background: -webkit-linear-gradient(top, #d2ff52 0%,#91e842 100%); /* Chrome10+,Safari5.1+ */
+      
+      background: -o-linear-gradient(top, #d2ff52 0%,#91e842 100%); /* Opera 11.10+ */
+      
+      background: -ms-linear-gradient(top, #d2ff52 0%,#91e842 100%); /* IE10+ */
+      
+      background: linear-gradient(to bottom, #d2ff52 0%,#91e842 100%); /* W3C */
+      
+      margin:0px;
+      padding:0px;
+      background-attachment: fixed;
+}
+
+#img-topo{
+     
+      margin-left:-10px;
+     
+      padding-top:0 px ;
+     
+      z-index:10;
+
+}
+
+/* Avatar
+
+-----------------------------------------*/
+
+.avatarcontainer{ 
+      
+      position:relative; 
+      
+      width:129px; 
+      
+      float:left; 
+      
+      margin-right:35px; 
+      
+      transition:width 0.2s ease-in-out; 
+      
+      -moz-transition:width 0.2s ease-in-out; 
+      
+      -webkit-transition:width 0.2s ease-in-out; 
+      
+      -o-transition:width 0.2s ease-in-out;
+
+}
+
+.avatarcontainer{
+      
+      width:50px;
+      
+
+}
+
+.avatarcontainer img{
+	
+      height:auto;
+	
+      display:block;
+	
+      margin-top:-31px;
+	
+      -moz-box-shadow: 0 0 2px 0 #000;
+	
+      -webkit-box-shadow: 0 0 2px 0 #000;
+	
+      box-shadow: 0 0 2px 0 #000;
+	
+      border:3px solid #fff;
+	
+      border-radius:50%; 
+	
+      -moz-border-radius:50%; 
+	
+      -webkit-border-radius:50%;
+	
+      transition:margin-top 0.2s ease-in-out; 
+	
+      -moz-transition:margin-top 0.2s ease-in-out; 
+	
+      -webkit-transition:margin-top 0.2s ease-in-out; 
+	
+      -o-transition:margin-top 0.2s ease-in-out;
+
+
+}
+
+#box-topo { 
+        
+      width: 1370px;
+        
+      height: 70px;
+        
+      font-size: 14px;
+        
+      box-shadow: 0 0 2px 0 #000;
+	
+      border:3px solid #cac7c7;
+	
+      display:block;
+        
+      background: #cac7c7 ;
+        
+      margin-left:-10px
+
+}
+
+/* Feeds
+-----------------------------------------*/
+
+.iconpretext{
+            
+      font-weight:700; 
+            
+      text-transform:uppercase; 
+            
+      font-size:20px; 
+            
+      float:left; 
+            
+      margin-top:-50px; 
+            
+      margin-left:100px;
+            
+      z-index:1;
+
+} 
+
+
+
+/*----------------------------------------------------
+     {--------}  Redes Sociais  {--------}
+----------------------------------------------------*/
+
+.facebook a{
+
+      width: 51px;
+
+      height: 80px;
+      
+text-indent: -9999px;
+
+      float: left;
+
+      display:block;
+      
+background: url(http://imagizer.imageshack.us/v2/50x45q90/902/kNQz7i.png) no-repeat ;
+      
+position:absolute;
+
+      left:325px;
+
+      top:415px;
+
+}
+
+.facebook a:hover{
+
+      background: url(http://imagizer.imageshack.us/v2/50x45q90/536/frouH3.png) no-repeat ;
+
+}
+
+.google_plus a{
+      
+width: 51px;
+
+      height: 80px;
+      
+text-indent: -9999px;
+      
+float: left;
+      
+display: block inline;
+      
+background: url(http://imagizer.imageshack.us/v2/35x45q90/905/tCDEz4.png) no-repeat ;
+      
+position:absolute;
+      
+left:380px;
+      
+top:420px;
+
+}
+
+.google_plus a:hover{
+
+      background: url(http://imagizer.imageshack.us/v2/35x45q90/537/RVp1TA.png) no-repeat;
+
+}
+
+.youtube a{
+
+      width: 51px;
+
+      height: 80px;
+
+      text-indent: -9999px;
+      
+float: left;
+      
+display: block inline;
+
+      background: url(http://imagizer.imageshack.us/v2/50x45q90/538/OmnD5q.png) no-repeat;
+
+      position:absolute;
+
+      left:425px;
+
+      top:415px;
+
+}
+
+.youtube a:hover{
+
+      background: url(http://imagizer.imageshack.us/v2/50x45q90/746/kW07wl.png) no-repeat;
+
+}
+
+.twitter a{
+
+      width: 51px;
+
+      height: 80px;
+
+      text-indent: -9999px;
+
+      float: left;
+
+      display: block inline;
+
+      background: url(http://imagizer.imageshack.us/v2/50x45q90/536/kMBNAZ.png) no-repeat;
+
+      position:absolute;
+
+      left:475px;
+
+      top:415px;
+
+}
+
+.twitter a:hover{
+
+      background: url(http://imagizer.imageshack.us/v2/50x45q90/742/JcKQ7j.png) no-repeat;
+
+}
+
+
+.menu{
+     margin-left:650px;
+     float:top;
+     top: 0px;
+}
+ul {
+    margin-top: -45;
+    
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+li a {
+    padding: 10px 20px; 
+    margin:0;
+    border: 0px solid #f00; 
+    background: #7c7c7c;
+    text-decoration: none;
+    color:#FFF;
+    /* cantos arredondados */
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+    background: #302f2f;
+    color: #FFF; 
+    border-color: #000;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="img-topo">
+
+<img src="http://imageshack.com/a/img539/9113/R2QSf2.gif" alt=" Marcos Costa " height="400" width="1376">
+
+</div>
+
+<div class='avatarcontainer'>
+
+<img alt='' class='avatar avatar-123 photo' height='123' src='http://imageshack.com/a/img674/8195/vIun8T.gif' width='123'/>
+
+</div>
+
+<div id='box-topo'>
+</div>
+
+
+</div>
+
+<h6 class='iconpretext'>Sigua Me: </h6>
+
+
+</div>
+
+
+
+<span class='facebook'>
+<a href='https://www.facebook.com/pages/John-Tutoriais/142608935869727?fref=ts'>Facebook</a>
+</span>
+
+<span class='google_plus'>
+<a href='LINK DO GOOGLE AQUI'>Google Plus</a>
+</span>
+
+<span class='youtube'>
+<a href='LINK DO YOUTUBE AQUI'>YouTube</a>
+</span>
+
+<span class='twitter'>
+<a href='LINK DO TWITTER AQUI'>Twitter</a>
+</span>
+
+
+<div class= "menu">
+<ul>
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Campanha</a></li>
+    <li><a href="#">Sobre</a></li>
+    <li><a href="#">Projetos</a></li>
+    <li><a href="#">Contatos</a></li>
+</ul>
+</div>
+</body>
+
+</html>

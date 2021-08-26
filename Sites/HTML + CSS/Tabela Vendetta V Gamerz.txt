@@ -1,0 +1,169 @@
+<html>
+<head>
+<Title>Listas de Comandos do Counter Strike</title>
+<style>
+body{
+   background: #ffaf4b; /* Old browsers */
+   background: -moz-linear-gradient(top, #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, #ffaf4b 0%,#ff920a 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, #ffaf4b 0%,#ff920a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+p{
+  color:orange;
+
+</style>
+</head>
+<body>
+
+                                                               <!---Tabela-Cross Hair--->                                         
+
+<table border='5' bordercolor='black' background='https://pre00.deviantart.net/9390/th/pre/f/2012/276/1/1/cs_go_wallpaper_by_fyoucon-d5gow1f.jpg'width='x' height='x'cellspacing='5px'>
+<tr>
+<td WIDTH="708" ><p align='center'><b>Comando Cross Hair ( Mira)</b></p>
+</tr>
+</table>
+<table border='5' bordercolor='black' background='https://pre00.deviantart.net/9390/th/pre/f/2012/276/1/1/cs_go_wallpaper_by_fyoucon-d5gow1f.jpg'width='x' height='x'cellspacing='5px'>
+<tr>
+<td><p align='center'><b>cl_crosshair_drawoutline "0"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<td><p align='center'><b>cl_crosshair_dynamic_maxdist_splitratio "0.35"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+<tr>
+<td><p align='center'><b>cl_crosshair_dynamic_splitalpha_innermod "1"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshair_dynamic_splitalpha_outermod "0.5"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshair_dynamic_splitdist "7"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshair_outlinethickness "0.500000"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairalpha "255.000000"</b></p></td>
+<td><p align='center'><b> Transparência do alvo</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>l_crosshaircolor "5"</b></p></td>
+<td><p align='center'><b>Definição de cor padrão</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshaircolor_b "102"</b></p></td>
+<td><p align='center'><b>Definição de cor RGB</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshaircolor_g "0"</b></p></td>
+<td><p align='center'><b>Definição de cor RGB</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshaircolor_r "231"</b></p></td>
+<td><p align='center'><b>Definição de cor RGB</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairdot "0"</b></p></td>
+<td><p align='center'><b>Configuração que se refere ao ponto no meio do alvo</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairgap "-4"</b></p></td>
+<td><p align='center'><b>Espaço vazio no alvo</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairgap_useweaponvalue "0"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairscale "0"</b></p></td>
+<td><p align='center'><b>Diminuir a espessura da mira</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairsize "3"</td>
+<td><p align='center'><b>Comando que se refere ao tamanho alvo</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairstyle "4"</b></p></td>
+<td><p align='center'><b>Alvo estático é a versão clássica</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairthickness "0.5"</b></p></td>
+<td><p align='center'><b>Atributo que se refere à espessura alvo </b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_crosshairusealpha "1"</b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_fixedcrosshairgap "3"</b></p></td>
+<td '><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+</table>
+
+                                            <!---Radar-Cross Hair---> 
+
+<br>
+<table border='5' bordercolor='black' background='https://pre00.deviantart.net/9390/th/pre/f/2012/276/1/1/cs_go_wallpaper_by_fyoucon-d5gow1f.jpg'width='x' height='x'cellspacing='5px'>
+<tr>
+<td WIDTH="708" ><p align='center'><b>Comando Radar</b></p>
+</tr>
+</table>
+<table border='5' bordercolor='black' background='https://pre00.deviantart.net/9390/th/pre/f/2012/276/1/1/cs_go_wallpaper_by_fyoucon-d5gow1f.jpg'width='x' height='x'cellspacing='5px'>
+<tr>
+<td><p align='center'><b>cl_radar_always_centered "1"</b></p></td>
+<td><p align='center'><b>O valor padrão concentra o radar em sua própria posição</b></p></td>
+</tr>
+<td WIDTH="350"><p align='center'><b>cl_radar_icon_scale_min "0.9"</b></p></td>
+<td WIDTH="349"><p align='center'><b>Afeta o tamanho dos ícones no radar </b></p></td>
+<tr>
+<td><p align='center'><b>cl_radar_rotate "1"</b></p></td>
+<td><p align='center'><b>Este comando ativa a rotação do radar quando você está girando</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_radar_square_with_scoreboard "1" </b></p></td>
+<td><p align='center'><b>Não sei significado</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_hud_radar_scale "1"</b></p></td>
+<td><p align='center'><b>Este comando permite que você altere o tamanho do seu radar</b></p></td>
+</tr>
+<tr>
+<td><p align='center'><b>cl_radar_scale "0.35" </b></p></td>
+<td><p align='center'><b>Este comando reduz o mapa no seu radar</b></p></td>
+</tr>
+</table>
+<br>
+<form action='vendettavgamerz@gmail.com' method='get ou post'>   
+<p><font face='calibri'color='black'>Usuario:
+<input type=texte name'teste' size='22'maxlength='8' value='Nome Completo'></p>
+<br>
+<p><font face='calibri' color='black'>Password:
+<input type=password name'teste' size='20'maxlength='8'value='Password'></p>
+<br>
+<input type=file name'teste'>
+<br>
+<input type=submit value'Enviar'>
+<input type=reset value'Limpar'>
+<p><font face='calibri' color='black'> Counter Strike Global:<input type=radio volue'bvbvb' checked'#'></p>
+<p><font face='calibri' color='black'> GTA V:<input type=radio volue'bvbvb' checked'#'></p>
+<p><font face='calibri' color='black'>SIm<input type=checkbox volue'#' checked'#'></p>
+<p><font face='calibri' color='black'>Não<input type=checkbox volue'#' checked'#'></p>
+<br>
+<p><font face='calibri' color='black'> Recado:</p>
+<textarea rows='5' cols'50'> </textarea>
+<input type=button name'teste'>
+<input hidden name='variavel' value='valor'>
+<select mutiple name='menu'>
+<option selected value='valor1'> Valor 1 
+</select>
+</form>     
+
+<frameset cols='25%,*,25%'>
+<frame src='frame.com'>
+</frameset>
+</body>
+</html>
+

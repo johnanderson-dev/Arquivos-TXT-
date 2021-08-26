@@ -1,0 +1,575 @@
+<!DOCTYPE hmtl>
+<hmtl lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>VendettaVGamerz</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Pacifico'); 
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+body{ 
+   width: auto;
+   height: auto;
+   background:rgba(40,0,0,1); 
+
+   
+}
+
+
+         
+                              /* Logo príncipal */ 
+
+
+#logo-principal{
+    width:100%;
+    height:300px;
+    margin: -10px 0px 0px -10px; 
+    padding:0px;
+    display:inline-block;
+    position:relative;
+    left:0%;
+}
+
+                              /*Barra de Opçoes*/
+
+.barra-de-opcoes img{
+       width: 1440px;
+       height: 80px;
+       margin-top: -10px;
+       margin-left: -100px;
+}                  
+
+                          /* Icone Vendetta V Gamerz ( redendo ) */ 
+
+.avatarcontainer{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:370px;                                    /* 430 pixels do icone em relação ao top  */
+    left:80px;                                    /* 80 pixels do icone em relação a borda esquerda */
+    transition:width 0.4s ease-in-out;            /* Transição que você altera os valores suavemente */
+   -moz-transition:width 0.4s ease-in-out;        /* mozila firefox */
+   -webkit-transition:width 0.4s ease-in-out;     /* Safari */
+   -o-transition:width 0.4s ease-in-out;          
+}
+
+.avatarcontainer img{
+  height:auto;                              /* Altura do icone em si */
+  display:inline;
+  margin-top:-201px;                        /* distância do topo em relação ao topo */
+  -moz-box-shadow:  0 0 2px 0 #000;          
+  -webkit-box-shadow: 0 0 2px 0 #000;       /* mozila fire fox */
+  box-shadow: 0 0 2px 0 #000;               /* safari */
+  border:3px solid #fff;                    /* grossura da bora que circunda o icone */
+  border-style:radius 50%; 
+  -moz-border-radius:50%; 
+  -webkit-border-radius:50%;
+  transition:margin-top 0.2s ease-in-out; 
+  -moz-transition:margin-top 0.2s ease-in-out; 
+  -webkit-transition:margin-top 0.2s ease-in-out; 
+  -o-transition:margin-top 0.2s ease-in-out;
+}
+
+#outerheaderauthor.sticky .avatarcontainer img{
+        margin-top:500px;
+
+}                                                   
+
+                                       /* Follow Me Texto */ 
+
+
+.follow img{
+       position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+       top:290px;                                    /* 430 pixels do icone em relação ao top  */
+       left:450px;  
+        transition: width 2s ease-in-out;     
+       
+
+}
+.follow img:hove{
+       width: 400px;
+        
+
+       
+ 
+}
+
+
+                                                       /* Feeds */ 
+
+                              
+.feeds img{
+       background:none;
+       width: 40px; 
+       transition: width .35s ease-in-out;
+       
+      
+}
+
+.feeds .f-instagram{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:305px;                                    /* 430 pixels do icone em relação ao top  */
+    left:900px;   
+    
+}
+.feeds .f-instagram:hover{
+    width:45px;
+    color: #000;
+}
+.feeds .f-twitter{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:305px;                                    /* 430 pixels do icone em relação ao top  */
+    left:970px;
+}
+.feeds .f-twitter:hover{
+    width:45px;
+    
+}
+
+.feeds .f-facebook{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:305px;                                    /* 430 pixels do icone em relação ao top  */
+    left:1040px;
+}
+
+.feeds .f-facebook:hover{
+        width:45px;
+}
+.feeds .f-youtube{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:305px;                                    /* 430 pixels do icone em relação ao top  */
+    left:1110px; 
+    
+}
+
+.feeds .f-youtube:hover{
+    width:45px;       
+ 
+}
+
+                                          /* Menu */ 
+
+nav#menu{
+    display: block;
+
+}
+nav#menu h1{
+    display: none;
+
+
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    right: 200px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu li:hover{
+    background-color: #606060;
+
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+
+
+}
+ 
+                                       /* Textos do Corpo*/
+h1{
+    color: gray;
+    text-align: justify;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+}     
+
+p{
+     color: white;
+     text-align: justify;
+     text-indent: 50px;
+     font-family: 'Pacifico', cursive;
+     
+}      
+
+.text-about{
+     position: absolute;
+     heigth: 200px;
+     top: 500px;
+     background: rgba(155,153,154,.9);
+     left: 180px;
+     border: 2px outset #000000;
+     border-radius: 10px
+      
+}
+.text-about h1{
+     position: relative;
+     font-size: 30pt;
+     text-shadow: 2px 2px 2px rgba(0,0,0,1);
+     padding: 0px;
+     margin: 0px 0px 0px 450px;
+}
+.text-about p{
+     position: relative;
+     width: 1000px;
+     padding: 0px;
+     margin: 30px 30px 30px 10px;
+     font-size: 13pt;
+     text-align: center;
+     text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}    
+
+                              /* Links do Corpo */
+
+a{
+     text-decoration: none;
+     color:white;
+     transition: color 2s;
+}
+
+a:hover{
+     color: rgba(153,155,154,1);
+     
+}                            
+
+                                       /* Slide */
+
+                                  /* Rodapé */
+
+
+.rodape{
+   position: relative;
+   weidth: 100%;
+   height: 200px;
+   margin-bottom:-20px;
+   top: 160px;
+   left: -13px;
+   border: 2px outset #000000;
+   border-radius: 5px;
+   boder-shadow: 2px 2px 2px #000;
+   background: #7a7a7a; /* Old browsers */
+   background: #45484d; /* Old browsers */
+   background: -moz-linear-gradient(top, #45484d 0%, #262626 100%, .5); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top, #45484d 0%,#262626 100%, .5); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom, #45484d 0%,#262626 100%, .5); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+#rodape-feeds{
+   position: absolute;
+   top: 1175px;
+   left: 100px;
+   text-shadow: 2px 2px 2px #000;
+  
+}
+
+#rodape-feeds h3{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 0px 0px 10px 0px;
+}
+
+#rodape-feeds ul{
+   position: relative;
+   color: rgba(153,155,154,1);
+   list-style: none;
+   text-align: left;
+   left: -20px;
+   
+   
+}
+#rodape-feeds a{
+   color: rgba(153,155,154,1);
+   transition: color 2s;
+   text-decoration: none;
+}
+#rodape-feeds a:hover{
+   color: red;
+}
+
+#rodape-donation{
+   position: absolute;
+   top: 1175px;
+   left: 300px;
+   text-shadow: 2px 2px 2px #000;
+}
+
+
+#rodape-donation h3{
+     text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 0px 0px 10px 0px;
+
+}
+
+#rodape-donation ul{
+   position: relative;
+   color: rgba(153,155,154,1);
+   list-style: none;
+   text-align: left;
+   left: -30px;
+}
+#rodape-donation a{
+   color: rgba(153,155,154,1);
+   transition: color 2s;
+   text-decoration: none;
+}
+#rodape-donation a:hover{
+   color: red;
+}
+
+#rodape-mygames{
+   position: absolute;
+   top: 1175px;
+   left: 500px;
+   text-shadow: 2px 2px 2px #000;
+  
+}
+
+#rodape-mygames h3{
+    text-align: center;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 0px 0px 10px 0px;
+}
+
+#rodape-mygames ul{
+   position: relative;
+   color: rgba(153,155,154,1);
+   list-style: none;
+   text-align: left;
+   left: -35px;
+   
+   
+}
+#rodape-mygames a{
+   color: rgba(153,155,154,1);
+   transition: color 2s;
+   text-decoration: none;
+}
+#rodape-mygames a:hover{
+   color: red;
+}
+ 
+#google_translate_element{
+   position: absolute;
+   top: 1235px;
+   left: 800px;
+   text-shadow: 2px 2px 2px #000;
+}
+
+#rodape-develope p{
+   position: absolute;
+   top: 1325px;
+   left: 700px;
+   text-shadow: 2px 2px 2px #000;
+   color: rgba(153,155,154,1);
+   font-family: Arial;
+}
+
+</style>
+<body>
+ <script type='text/javascript'>
+
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: &#39;en&#39;}, &#39;google_translate_element&#39;);
+}
+</script>
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'/>
+
+
+
+<script type='text/javascript'>
+let sliderImages = document.querySelectorAll(&quot;.slide&quot;),
+  arrowLeft = document.querySelector(&quot;#arrow-left&quot;),
+  arrowRight = document.querySelector(&quot;#arrow-right&quot;),
+  current = 0;
+
+// Clear all images
+function reset() {
+  for (let i = 0; i &gt; sliderImages.length; i++) {
+    sliderImages[i].style.display = &quot;none&quot;;
+  }
+}
+
+// Init slider
+function startSlide() {
+  reset();
+  sliderImages[0].style.display = &quot;block&quot;;
+}
+
+// Show prev
+function slideLeft() {
+  reset();
+  sliderImages[current - 1].style.display = &quot;block&quot;;
+  current--;
+}
+
+// Show next
+function slideRight() {
+  reset();
+  sliderImages[current + 1].style.display = &quot;block&quot;;
+  current++;
+}
+
+// Left arrow click
+arrowLeft.addEventListener(&quot;click&quot;, function() {
+  if (current === 0) {
+    current = sliderImages.length;
+  }
+  slideLeft();
+});
+
+// Right arrow click
+arrowRight.addEventListener(&quot;click&quot;, function() {
+  if (current === sliderImages.length - 1) {
+    current = -1;
+  }
+  slideRight();
+});
+
+startSlide();
+
+</script>
+
+
+
+
+
+
+<header>
+                                        <!--Logo Header-->
+ <div id='logo-principal'>
+<img alt='VendettaVGamerz' src='http://oi67.tinypic.com/17e16h.jpg'/>
+ </div>
+    
+ <div class='follow'>
+   <a href=''><img alt='' height='70px' src='http://i63.tinypic.com/21oyj9x.jpg' width='300px'/>  </a>
+</div>                                      <!-- Barra de Opções -->
+
+<div class='barra-de-opcoes'>
+<img alt='Barra de Opções' src='https://imageshack.com/a/img922/1531/vpjfPn.png'/>
+</div>
+                    
+
+                                          
+<img src="http://i68.tinypic.com/2zi4uu9.jpg" id="vendetta" onmouseover="mudaFoto('https://imageshack.com/a/img924/6064/QNtGN0.jpg')" onemouseout="mudaFoto('http://i68.tinypic.com/2zi4uu9.jpg')" width="100PX" height="100PX"/>
+
+<script>
+   function mudaFoto (foto){
+      document.getElementById("vendetta").src='foto';
+
+
+
+   }
+
+
+
+</script> 
+
+
+
+                                           <!-- Icone Vendetta V Gamerz -->
+
+
+<div class='avatarcontainer'>
+  <img alt='' class='avatar avatar-123 photo' id='avatar avatar-123 photo'height='123' src='https://imageshack.com/a/img924/6064/QNtGN0.jpg' width='123'/>
+ </div>
+
+
+
+
+<div class='feeds'>
+
+  <a href='https://www.instagram.com/vendettavgamerz/?hl=pt-br' target='_blank'><img class='f-instagram' src='http://i68.tinypic.com/mk13m.jpg'/></a>
+  <a href='https://twitter.com/vendettavgamerz' target='_blank'><img class='f-twitter' src='http://i68.tinypic.com/n3vwo3.jpg'/></a>
+  <a href='https://www.facebook.com/vendettavgamerz/' target='_blank'><img class='f-facebook' src='http://i67.tinypic.com/sg3j0o.jpg'/></a>
+  <a href='https://www.youtube.com/channel/UCnOyWtlRV2Y8DkG9Z24OCqQ?view_as=subscriber' target='_blank'><img class='f-youtube' src='http://i68.tinypic.com/dqgck5.jpg'/></a>
+  </div>
+
+
+                                                             <!-- Menu -->  
+ 
+
+
+<nav id='menu'>
+<h1> Menu Principal</h1>
+<ul>
+<li><a href=''>Home</a></li>
+<li ><a href=''>Games</a></li>
+<li><a href=''>Gallery</a></li>
+<li><a href='vendetavgamerz-donation.blogspot.com'>Donation</a></li>
+<li><a href=''>Contact Us</a></li>
+</ul>
+</nav>
+
+</header>
+                                                    <!-- Slide -->  
+
+
+
+                                            <!-- Rodapé -->
+
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ <div class='rodape' style='width:1350px'>
+ </div>
+<div id='rodape-feeds'>
+   <h3>Feeds:</h3>
+   <ul>
+     <li><a alt='' href='' target='_blank'>Instagram</a></li>
+     <li><a alt='' href='' target='_blank'>Twitter</a></li>
+     <li><a alt='' href='' target='_blank'>Facebook</a></li>
+     <li><a alt='' href='' target='_blank'>Youtube</a></li>
+     <li><a alt='' href='' target='_blank'>Twitch</a></li>
+   </ul>
+ </div>
+ <div id='rodape-donation'>
+   <h3>Donation:</h3>
+   <ul>
+     <li><a alt='' href='' target='_blank'>PayPal</a></li>
+     <li><a alt='' href='' target='_blank'>Streamlabs</a></li>
+     <li><a alt='' href='' target='_blank'>Dogecoin</a></li>
+     <li><a alt='' href='' target='_blank'>Monero</a></li>
+     <li><a alt='' href='' target='_blank'>Bitcoins</a></li>
+    </ul> 
+ </div>
+<div id='rodape-mygames'>
+   <h3>My Games:</h3>
+   <ul>
+     <li><a alt='' href='' target='_blank'>CS GO</a></li>
+     <li><a alt='' href='' target='_blank'><del>Battlefield 1</del></a></li>
+     <li><a alt='' href='' target='_blank'><del>Battlefield 4</del></a></li>
+     <li><a alt='' href='' target='_blank'><del>GTA V</del></a></li>
+       <li><a alt='' href='' target='_blank'><del>PUB</del></a></li>
+    </ul> 
+  </div>
+<div id='google_translate_element'/>
+<div id='rodape-develope'>
+  <p><em>&#169; Copyright 2018 - by John Anderson</em></p>
+</div>
+</body>
+</hmtl>

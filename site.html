@@ -1,0 +1,1078 @@
+
+<!DOCTYPE html>
+<html lang='pt-br'>
+  <head>
+    
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <link href='css/mobile.css' media='(max-width: 320px)' rel='stylesheet'/>    
+
+<title>KryptoBit Info</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Pacifico'); 
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); 
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+
+@import url ('https://fonts.googleapis.com/css?family= Pacifico '); 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+
+
+body{
+  background: #dac8be;
+}
+
+#img-teste{
+   position: absolute;
+   top: 80px;
+   width: 149px;
+   left: -2px;
+   border: solid 1px gray;
+   box-shadown: 2px 2px 2px black;
+}
+
+
+                                 /* Barra Top Menu */ 
+
+
+.barra-Header{
+  position: fixed;
+  background:#3c3a3a;
+  height: 80px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.barra-Header img{
+  position: relative;
+  bottom: 10px;
+  left: 12px;
+  z-index: 1;
+}
+
+
+                                   /* Menu */ 
+
+nav#menu{
+  position: relative;  
+  display: block;
+  bottom: 103px;
+  left: 200px;
+  width: 850px;
+  height: 75px;
+  
+}
+nav#menu ul{
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  position: relative;
+  padding: 5px;
+  text-transform: uppercase; 
+      
+}
+
+nav#menu li{
+  display: inline-block;
+  float: left;
+  
+  padding: 0px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  width: 150px;
+  height: 40px;
+  -webkit-transition: background-color 1s;    
+  -moz-transition: background-color 1s; 
+  -o-transition: background-color 1s;     
+  -ms-transition: background-color 1s;
+   transition: background-color 1s; 
+
+}
+
+nav#menu ul li:hover{
+	background-color: #606060;
+}
+  
+
+
+
+nav#menu ul ul{
+   display: none;
+   right: 380px;  
+   width: 1400px;
+   height: 417px;
+   background:#3c3a3a;
+   top: 0px;
+   
+}
+
+
+
+nav#menu ul ul li{
+   position: relative;
+    left: 0px;
+    top: 20px;
+    border: none; 
+}
+nav#menu ul li:hover > ul{
+	display:block;
+}
+
+nav#menu ul ul ul{
+	margin-left: 201px;
+	top: 0px;
+	position: absolute;
+}
+
+nav#menu ul ul li:hover{
+	background-color:  #606060;
+        
+}
+
+nav#menu ul ul ul li:hover{
+	background-color: #062a66;
+         
+}
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+ 
+                                            /* SUB-MENU */
+
+.sub-menu-historia{
+    display: block;
+    width: 400px
+    
+}    
+
+.sub-menu-historia a{
+    position: relative; 
+    left: 50px;
+    
+}
+
+.sub-menu-historia p{
+    position: relative;
+    color: gray;
+    font-size: 13pt;
+    border-bottom: 1px solid gray;
+    left: 30px;
+    top: 10px;
+}
+
+.sub-menu-storage{
+   display: block;
+    width: 500px
+}  
+
+.sub-menu-storage p{
+    position: relative;
+    color: gray;
+    font-size: 13pt;
+    border-bottom: 1px solid gray;
+    left: 500px;
+    bottom: 417px;
+}
+
+.sub-menu-storage a{
+    position: relative; 
+    left: 500px;
+    bottom: 417px;
+       
+
+}
+ 
+
+                               /* Icone redondo da barra do menu */ 
+
+
+
+
+
+
+
+
+
+#icon-bar-header{
+    position: relative;
+    left: 1150px;
+    bottom: 230px;
+    
+}
+
+#icon-bar-header-kryptobit{
+     position: relative;
+     left: 992px;
+     bottom: 237px;
+}
+
+                                  /* Slider */ 
+
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	position: absolute;
+    overflow: hidden;
+    top: 80px;
+    left:0px;
+    border: solid 1px gray;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px;
+   
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+
+
+      /* Contaneir Corpo */ 
+
+
+
+
+
+#contaneir{
+   position: absolute;
+   background: rgba(112,109,104,.8);
+   top: 600px;
+   right: 200px;
+   border: 1px solid gray;
+   border-radius: 3px 3px;
+   width: 1000px;
+   height: 1050px;
+   box-shadow: 1px 1px 3px black;
+}
+
+
+#contaneir p{
+  position: relative;
+  text-align: justify;
+  text-indent: 50px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 12pt;
+  width: 635px;
+  left: 170px
+}
+
+#first{
+  position: relative;
+  border-bottom: solid #cccccc;
+  border-radius: 3px;
+  width: 740px;
+  height: 170px;
+  padding: 50px 0px 50px 20px;
+  left: 115px;
+}
+
+#first img{
+  position: relative;
+  right: 120px;
+  width: 300px;
+  box-shadow: 3px 3px 3px;
+}
+ 
+#first h2{
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+  font-size: 18pt;
+  width: 650px;
+}
+#first p{
+ position: relative;
+ left: 200px;
+ bottom: 140px;
+ font-size: 10pt;
+}
+
+#first a{
+ color: black;
+ text-decoration: none;
+ 
+}
+
+#second{
+  position: relative;
+  border-bottom: solid #cccccc;
+  border-radius: 3px;
+  width: 740px;
+  height: 170px;
+  padding: 50px 0px 50px 20px;
+  left: 115px;
+}
+
+#second img{
+  position: relative;
+left: 530px;
+  width: 300px;
+  box-shadow: 3px 3px 3px;
+}
+ 
+#second h2{
+  position: relative;
+  right: 100px;
+  bottom: 150px;
+  font-size: 18pt;
+  width: 650px;
+  
+}
+#second p{
+ position: relative;
+ left: -115px;
+ bottom: 140px;
+ font-size: 10pt;
+ 
+}
+
+#third{
+  position: relative;
+  border-bottom: solid #cccccc;
+  border-radius: 3px;
+  width: 740px;
+  height: 170px;
+  padding: 50px 0px 50px 20px;
+  left: 115px;
+}
+
+#third img{
+  position: relative;
+  right: 120px;
+  width: 300px;
+  box-shadow: 3px 3px 3px;
+}
+ 
+#third h2{
+  position: relative;
+  left: 200px;
+  bottom: 150px;
+  font-size: 18pt;
+  width: 650px;
+}
+#third p{
+ position: relative;
+ left: 200px;
+ bottom: 140px;
+ font-size: 10pt;
+}
+
+
+#fourth{
+  position: relative;
+  width: 740px;
+  height: 170px;
+  padding: 50px 0px 50px 20px;
+  left: 115px;
+}
+
+#fourth img{
+  position: relative;
+  left: 530px;
+  width: 300px;
+  box-shadow: 3px 3px 3px;
+}
+ 
+#fourth h2{
+  position: relative;
+  right: 100px;
+  bottom: 150px;
+  font-size: 18pt;
+  width: 650px;
+  
+}
+#fourth p{
+ position: relative;
+ left: -115px;
+ bottom: 140px;
+ font-size: 10pt;
+ 
+}
+    /* Rodapé Superior */
+
+
+.rodape-superior{
+   position: absolute;
+   background:#3c3a3a;
+   height: 100px;
+   top: 1760px;
+   left: 0px;
+}
+
+
+
+                                /* Icones Feeds Rodapé */
+
+#facebook-icon-rodape{
+   position: absolute;  
+   top: 17px;
+   left:200px;
+   
+}
+
+#instagram-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:425px;
+
+}
+
+#twitter-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:700px;
+
+}
+
+#gmail-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:975px;
+
+}
+
+                          /* Rodapé Inferior */
+
+.rodape-inferior{
+   position: absolute;
+   background:#4c4a47;
+   width: 100%;
+   height: 470px;
+   top: 1835px;
+   left: 0px;
+   border-top: 2px  solid black;
+   z-index: 1;
+}
+
+
+                        /* AREA DE CONTATO RODAPÉ */
+
+#contato-rodape{
+  
+  position: absolute;
+  left: 50px;
+  bottom: 30px;
+}                         
+
+#icon-email-contato-rodape{
+   position: relative;  
+   top: 50px;
+   left:900px;
+  
+
+}
+
+#text-email-contato-rodape{
+   position: relative;  
+   color: #fa8d57;
+   bottom: 25px;
+   left:958px;
+   font-size: 20px;
+   font-family: 'Pacifico', cursivo;
+   text-shadow: 2px 2px black;  
+
+}
+
+.barra-contato-rodape{
+   position: relative;
+   background: #fa8d57;
+   border: 1px solid black;
+   height: 4px;
+   left: 910px;
+   bottom: 30px;
+   box-shadow: 1px 1px black;
+}  
+
+
+                      /* Formulario */
+
+
+.formulario {
+  position: relative;
+  top: 0px;
+  left: 900px;
+
+}
+
+.formulario form{
+   background: rgba(250,141,87,.8);
+   width: 200px;
+   margin: 0 auto;
+   padding: 1em;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+
+}
+
+.formulario form div{
+   margin-top: 1em;
+   margin-left: -5px;
+
+}
+
+.formulario label{
+   display: block;
+   width: 100px;  
+   font-size: 17px;
+   font-family: 'Bree Serif', serif;
+   
+   
+}
+
+.formulario input, textarea{
+   border-radius: 10px;
+   width: 200px;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 1px solid #999;
+   padding: 5px;
+   font-family: 'Inconsolata', monospace;
+   font-size: 10px;
+   
+}
+
+.formulario textarea{
+   height: 80px; 
+ 
+
+}
+
+.formulario input:focus, textearea:focus{
+   border-color: #000;  
+}
+
+.formulario button{
+   border: 1px solid #999;
+   border-radius: 5px ;
+   width: 80px; 
+   height: 20px;
+}
+
+.button-formulario{
+  
+}
+
+
+                               /* LOCALIZAÇÃO RODAPÉ */
+
+
+.localization{
+   position: absolute;
+   top: 60px;
+   right: 550px;
+   width: 300px;
+   height: 300px;
+   z-index: 1;
+}
+#localization-top img{
+   position: relative;
+   left: 0px;
+}
+#localization-top{
+   height: 80px;
+}
+
+#localization-top p{
+   position: relative;
+   color: #00ff6c;
+   left: 50px;
+   bottom: 60px;
+   font-size: 20px;
+   font-family: 'Bree Serif', serif; 
+   text-shadow: 3px 3px black;
+}
+
+.barra-localization-rodape{
+   position: relative;
+   background: #00ff6c;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 10px;
+   bottom: 70px;
+   box-shadow: 1px 1px black;
+}
+
+#localization-bottom{
+   position: absolute;
+   background: rgba(0,255,108,.8);
+   width: 280px;
+   left: 5px;
+   top: 100px;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+#localization-bottom p{
+   postion: relative;
+   top: 0px;
+   left: 45px;
+   color: white;
+   font-family: 'Fredoka One', cursive;
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+   text-shadow: 2px 2px 2px black;
+}
+
+
+#localization-bottom img{
+  position: relative;
+  top: 0px;
+  left: 85px;
+}
+
+
+                                 /* DESENVOLVEDOR */
+
+#text-developer{
+  position: absolute;
+  top: 400px;
+  left: 550px;
+  color: #9f9b9b;
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px;
+  z-index: 1;
+}
+
+#text-developer a{
+  color: #9f9b9b;
+  text-decoration: none;  
+}
+
+#text-developer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+                         /*DESCRIÇÃO "SOBRE" MAIS MINI MENU */
+
+.about-us{
+   position: absolute;
+   left: 50px;
+   top: 15px;
+   z-index: 1;
+
+}
+.about-us img{
+   position: relative;
+   padding: auto;
+   margin: auto;
+   left: 10px;
+}
+
+.about-us p{
+   position: relative;
+   bottom: 50px;
+   left: 75px;
+   color: #a559d6;
+   font-size: 18px;
+   font-family: 'Fredoka One', cursive;
+   text-shadow: 3px 3px black;
+ 
+}
+
+.barra-about-us{
+   position: relative;
+   background: #a559d6;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 5px;
+   bottom: 55px;
+   box-shadow: 2px 2px black;  
+
+}
+
+.about-us ul{
+  position: relative;
+  list-style: none; 
+  background:rgba(165,89,214,.8);
+  width: 160px;
+  height: 300px;
+  left: 5px;
+  bottom: 30px;
+  border: 2px solid black;
+  border-radius: 1em;
+  box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+.about-us li{
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  right: 40px;
+  font-family: 'Pacifico', cursivo;
+  font-size: 15px;
+  text-shadow: 3px 3px black;
+}
+.about-us a{
+   color: white;
+   text-decoration: none;
+}
+.about-us a:hover{
+   color: gray;
+   text-decoration: underline;
+}
+
+                       
+                                  /* LOGO RODAPÉ KRYPTOBIT COM DATA DE CRIAÇÃO*/
+
+.logo-kryptoBit-rodape{
+   position: absolute;
+   top: 280px;
+   left: 200px;
+   z-index: 1;
+} 
+ 
+.logo-kryptoBit-rodape img{
+   position: absolute;
+   padding-bottom: 1em;
+   left: 120px;
+}
+
+.logo-kryptoBit-rodape p{
+    position: absolute;
+    color: #9f9b9b;
+    top: 120px;
+    left: 80px;
+    width: 200px;
+    padding-left: 3em;
+}
+</style>
+</head>
+<body>
+
+         <!-- Barra Topo Menu -->
+                                 
+<div class='barra-Header' style='width: 100%'>
+<img alt='KryptoBit' border='0' height='100px' src='https://image.ibb.co/iVgDwV/Letra-KB.png' width='100px'/>
+
+
+<!-- Menu -->	
+    	
+<!-- Menu -->	
+    	
+<nav id='menu'>
+<ul>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/cMbTWV/Logo-Krypto-Bit.png&apos;)'>
+     <a href='https://kryptobitechnology-home.blogspot.com/' target='_self'>Home</a></li>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/gJ1xQq/Logo-Krypto-Bit.png&apos;)'>
+     <a href='#' target='_self'>Artigos</a>
+      <ul>
+        <div class='sub-menu-historia'>
+         <p>Artigos sobre História</p>
+         <li><a href='https://kryptobitechnology-historiadohd.blogspot.com/' target='_self'>História do HD</a></li>
+         <li><a href='https://kryptobitechnology-eniac.blogspot.com/' target='_self'>História do Eniac</a></li>
+         <li><a href='https://kryptobitinfo-era.blogspot.com/' target='_self'>História da ERA</a></li>
+        </div>
+      </ul>
+
+      <ul>
+        <div class='sub-menu-storage'>
+         <p>Artigo sobre Dispositivos de Armazenamento</p>
+         <li><a href='https://kryptobitechnology-historiadohd.blogspot.com/' target='_self'>Interface de Dados</a></li>
+         <li><a href='https://kryptobitechnology-eniac.blogspot.com/' target='_self'>Leitura e Gravação</a></li>
+         <li><a href='https://kryptobitinfo-era.blogspot.com/' target='_self'>Sistema de Arquivos</a></li>
+        </div>
+      </ul>
+    
+</li>
+   
+      <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/idA28A/Logo-Krypto-Bit.png&apos;)'>
+     <a href='https://kryptobitechnology-interfaces.blogspot.com/' target='_self'>News</a>
+  </li> 
+     <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/eEMOgV/Logo-Krypto-Bit.png&apos;)'>
+     <a href='https://kryptobitechnology-leituraegravacao.blogspot.com/' target='_self'>Nossos Serviços</a>
+  </li>
+      <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/e0pjMV/Logo-Krypto-Bit.png&apos;)'>
+     <a href='https://kryptobitechnology-sistemadearquivos.blogspot.com/' target='_self'>Quem Somos?</a>
+ </li>
+</ul> 
+		</nav>
+
+
+<img height='140px' id='icon-bar-header' src='https://image.ibb.co/c2yeLq/Vetor.png' width='140px'/>
+<img height='110px' id='icon-bar-header-kryptobit' src='https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png' width='110px'/>
+<script>
+   function mudaFoto (foto){
+     document.getElementById(&quot;icon-bar-header-kryptobit&quot;).src = foto;
+}
+
+</script>
+  </div>
+                                                                         
+
+
+                      <!-- SLIDE -->
+
+
+<div id='slider'>
+<figure>
+<img height='400' src='https://i.ibb.co/fn8zYb0/l.jpg' width='1365'/>
+<img height='400' src='https://preview.ibb.co/edNykL/seagate-blog-2.jpg' width='1365'/>
+<img height='400' src='https://preview.ibb.co/cjZB5L/wd-chamada.jpg' width='1365'/>
+  <img height='400' src='https://preview.ibb.co/gkRcC0/General-Storage-EU-Studio-1.jpg' width='1365'/>
+  <img height='400' src='https://preview.ibb.co/cTBPQL/Sem-T-tulo-1.jpg' width='1365'/>
+</figure>	
+
+</div>
+
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ </div>
+
+
+<div id='contaneir'>
+ <div id='first'>
+     <img src='https://i.ibb.co/F7P1bhY/Sem-T-tulo-1.jpg'/>
+   <hgroup>
+    <a href='https://pcworld.com.br/apple-tenta-convencer-mas-novo-ipad-pro-nao-e-um-substituto-para-o-seu-pc/' target='_blank'>
+     <h2>Apple tenta convencer, mas novo iPad Pro não é um substituto para o seu PC</h2>
+     </a>
+     <p>
+Companhia trabalha em campanha publicitária para posicionar o tablet como &#39;novo computador&#39;, mas há 5 fortes razões para contrariar a Apple
+     </p>
+   </hgroup>
+ </div>
+<div id='second'>
+ <img src='https://preview.ibb.co/kSbfh0/Sem-T-tulo-1.jpg'/>
+   <hgroup>
+     <h2>IBM e Seagate lançam sistema baseado em blockchain para combater discos rígidos falsificados
+</h2>
+     <p>
+A IBM e a empresa de armazenamento de dados Seagate anunciaram uma iniciativa conjunta para combater os discos rígidos falsificados usando a tecnologia blockchain 
+     </p>
+   </hgroup>
+ </div>
+  <div id='third'>
+ <img src='https://preview.ibb.co/hLQy20/Sem-T-tulo-1.jpg'/>
+   <hgroup>
+     <h2>Disco rígido para a luz armazena informações quânticas</h2>
+     <p>
+Físicos da Universidade de Alberta, no Canadá, desenvolveram uma nova maneira de construir memórias quânticas, um método para armazenar as delicadas informações quânticas codificadas em pulsos de luz.
+     </p>
+   </hgroup>
+ </div>
+
+<div id='fourth'>
+ <img src='https://preview.ibb.co/k5h0X0/Sem-T-tulo-1.jpg'/>
+   <hgroup>
+     <h2>Western Digital faz maior disco rígido do mundo com 15 TB</h2>
+     <p>
+A Western Digital anunciou o lançamento de mais um HDD para quem quer espaço, muito espaço acima de qualquer coisa. Com 15 TB de memória e nome 15TB Ultrastar DC HC620...
+     </p>
+   </hgroup>
+ </div>
+
+
+</div>
+
+<!-- RODA SUPERIO E FEEDS -->
+
+
+
+
+<div class='rodape-superior' style='width: 100%'>
+
+    <a href='https://www.facebook.com/kryptobitinfo/' target='_blank'>  
+     <img height='50px' id='facebook-icon-rodape' src='https://image.ibb.co/iN3JJp/Facebook_1.png' width='50px'/>
+    </a>
+    <a href='https://www.instagram.com/kryptobit_info/' target='_blank'>
+     <img height='55px' id='instagram-icon-rodape' src='https://image.ibb.co/iWG2B9/Instagram.png' width='55px'/>
+    </a>
+    <a href='https://twitter.com/kryptobit_info' target='_blank'>  
+     <img height='55px' id='twitter-icon-rodape' src='https://image.ibb.co/dE8qW9/Twitter.png' width='55px'/>
+    </a>
+    <a href='https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=DmwnWrRttWSdCZkgtklnPZtScCnJmrQlFWRhVtPCcJqFCFvvTpzTlDjWxGxqZnhnLRxCKTbCPxsG' target='_blank'>
+     <img height='55px' id='gmail-icon-rodape' src='https://image.ibb.co/kBHTJp/G_Mail.png' width='55px'/>
+    </a>
+  
+</div>
+
+
+                                               <!-- RODAPÉ INFERIOR -->
+
+
+<div class='rodape-inferior' style='width: 100%'>
+ 
+ 
+
+
+                                        <!-- CONTATO E FORMULARIO RODAPÉ -->
+
+
+ <div id='contato-rodape'>
+    <img height='55px' id='icon-email-contato-rodape' src='https://image.ibb.co/eu6YjU/Email.png' width='55px'/>
+    <p id='text-email-contato-rodape'>Fale Conosco:</p>
+    <div class='barra-contato-rodape' style='width: 232px;'/>
+
+<script>
+  function validacao(){
+    if(document.form.nome.value==&quot;&quot;) {
+         alert(&quot;Por favor, preencha o campo nome.&quot;);
+         document.form.nome.focus();
+         return false; 
+  }
+
+
+    if(document.form.email.value==&quot;&quot; \\ document.form.email.value.indexOf(&#39;@&#39;)==-1 \\ document.form.email.value.indexOf(&#39;.&#39;)==-1){
+          alert(&quot;Por favor, digite um endereçõ de e-mail válido&quot;);
+          document.form.email.focus();
+          return false;
+
+
+}
+
+
+    if(document.form.senha.value.length 8) {
+          alert(&quot;A senha não pode conter menos que 8 caracterres.&quot;)
+          document.form.senha.focus();
+          return false;
+ }
+
+}
+
+
+
+</script>
+
+
+     <div class='formulario'>
+      <form action='page.com' method='post' name='form' onSubmit='return validacao()'>
+        <div>
+           <label for='name'>Name:</label>
+           <input id='nome' name='usuario_name' type='text' value='Digite seu Nome'/>
+        </div>
+  
+        <div>
+           <label for='email'>E-mail:</label>
+           <input id='email' name='usuario_email' type='email' value='Digite seu E-mail'/>
+        </div>
+
+        <div>
+           <label for='msg'>Mensagem:</label>
+           <textarea id='msg' name='usuario_msg'>Digite sua Mensagem</textarea>
+        </div>
+ 
+       <div class='button-formulario'> 
+           <button type='submit'>Enviar</button>
+       </div>
+     </form>
+    </div>
+ </div>
+
+
+
+                                                     <!-- LOCALIZAÇÃO RODAPÉ -->
+
+
+
+<div class='localization'>
+     <div id='localization-top'>
+       <img height='50px' src='https://image.ibb.co/n2ZCEU/Localiza_o.png' width='50px'/>
+         <p>KryptoBit Localização</p>   
+         <div class='barra-localization-rodape' style='width: 270px;'/>  
+      </div>
+      <div id='localization-bottom'>   
+          <p id='localization-text-endereco'>Fortaleza-CE / Brasil</p>
+          <img height='120px' id='localization-img-mapa' src='https://image.ibb.co/dzVKDp/Mapa.png' width='120px'/>
+       </div>
+</div>
+
+     <p id='text-developer'>Desenvolvedor:<a href='#'> John Anderson</a></p>
+
+ <div class='about-us'>
+   <img height='50px' src='https://image.ibb.co/cvwFM9/Contato.png' width='50px'/>
+      <p>Sobre:</p>
+      <div class='barra-about-us' style='width: 200px;'/> 
+ 
+   <ul>
+       <li><a href='#'>Inicio</a></li>       
+       <li><a href='#'>Sobre</a></li>
+       <li><a href='#'>Serviços</a></li>
+   </ul>
+        
+ </div>
+
+                                                <!-- LOGO RODAPÉ KRYPTOBIT -->
+
+ 
+ <div class='logo-kryptoBit-rodape'>
+   <img height='120px' src='https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png' width='120px'/>
+  <p>Krypto Bit - 2018</p>
+ </div>
+</div>  
+                                            
+</body>
+</html>

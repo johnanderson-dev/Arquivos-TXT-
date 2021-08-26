@@ -1,0 +1,17 @@
+<script>
+   function iconFace() {
+       alert ("Facebook");
+}
+   function iconInsta() {
+      alert ("Instagram");
+}
+   function iconTwitter() {
+      document.getElementById("twitter-icon-rodape").src="https://image.ibb.co/iVgDwV/Letra-KB.png";
+}
+   function iconGmail() {
+      document.getElemntById("").src"";
+}
+</script>
+onclick="iconFace()"
+onmousemove="iconInsta()"
+oumouseout="iconGmail()"

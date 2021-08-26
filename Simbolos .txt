@@ -1,0 +1,9 @@
+<b></b> = Negrito
+<i></i> = Italico
+<em></em> = italico com ênfase, resultado sêmantico;
+<del></del> = palavra riscada no meio 
+&#8220; = "
+&#8221; = "
+&quot;  = ""
+&shy;   = Hífen -
+&sbnp;  = espaço

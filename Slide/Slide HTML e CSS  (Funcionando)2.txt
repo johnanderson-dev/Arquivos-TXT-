@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Slider CSS3</title>
+
+<style>
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+    left: -100%;
+
+}
+
+50% {
+		left: -200%;
+
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -300%;
+}
+
+100% {
+	left: -400%;
+
+}
+
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite; 
+
+}
+</style>
+</head>
+<body>
+<div id="slider" >
+<figure>
+<img src="https://static.makeuseof.com/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured-670x335.jpg" width="1365" height="400"/>
+<img src="https://static.brusheezy.com/system/resources/previews/000/056/564/non_2x/cityscape-background-photoshop-backgrounds.jpg" width="1365" height="400"/>
+<img src="https://i.ytimg.com/vi/0iFn7E2ZW5g/maxresdefault.jpg" width="1365" height="400"/>
+<img src="images/France.jpg">
+<img src="images/Amsterdam.jpg">
+</figure>	
+
+</div>
+
+</body>
+</html>

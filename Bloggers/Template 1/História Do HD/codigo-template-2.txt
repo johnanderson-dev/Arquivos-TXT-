@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='rockpool.xml' b:templateVersion='1.2.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <link href='css/mobile.css' media='(max-width: 320px)' rel='stylesheet'/>    
+
+<title>KryptoBit Info</title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin><![CDATA[
+@import url ('https://fonts.googleapis.com/css?family= Pacifico '); 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+
+
+body{
+  background: #dac8be;
+  width: 100%;
+  
+}
+
+
+h1{
+  font-family: Arial;
+  font-size: 30pt;
+  color: #4bf7a0;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+} 
+
+
+                                 /* Barra Top Menu */ 
+
+.barra-Header{
+  position: fixed;
+  background: rgba(112,109,104,.8);
+  height: 80px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.barra-Header img{
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+
+}
+
+
+                                   /* Menu */ 
+
+nav#menu{
+  position: relative;  
+  display: block;
+  bottom: 103px;
+  left: 200px;
+  width: 850px;
+  height: 75px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+   
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    border: 1px solid gray; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu li:hover{
+    background-color: #606060;
+
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+                                  /* Icone redondo da barra do menu */ 
+
+
+
+#icon-bar-header{
+    position: relative;
+    left: 1150px;
+    bottom: 230px;
+    
+}
+#icon-bar-header-kryptobit{
+     position: relative;
+     left: 992px;
+     bottom: 237px;
+   
+
+}
+                                     /* Contaneir Corpo */ 
+
+
+
+
+
+#contaneir{
+   position: absolute;
+   background: rgba(112,109,104,.8);
+   border: 1px solid gray;
+   border-radius: 3px 3px;
+   margin:  100px 160px 100px 160px;
+   width: 1000px;
+   height: 6500px;
+   box-shadow: 3px 3px 3px gray;
+}
+
+
+#contaneir p{
+  position: relative;
+  text-align: justify;
+  text-indent: 50px;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 12pt;
+  width: 635px;
+  left: 150px;
+}
+#contaneir img{
+  position: relative;
+  left: 150px;
+  border: solid 2 px gray;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px black;
+  
+}
+
+#contaneir figcaption{
+  text-align: center;
+  text-shadow: 2px 2px 2px gray;
+  color: black;
+  font-size: 10pt;
+  font-weight: 900;
+  
+}
+
+#contaneir span, i, em{
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+  color: #2d888d;
+  
+}
+
+#contaneir strong, b, small{
+  color: #2a9e79;
+  
+}
+
+
+#contaneir ul{
+  position: relative;
+  list-style: none;
+  color: white;
+}
+
+#contaneir li{
+  position: relative;
+  left: 170px;
+  font-family: 'Fredoka One', cursive; 
+  text-shadow: 3px 3px 3px black;
+}
+
+
+                           /* BANDEIRAS PATA TRADUÇÃO DA PÁGINA */
+
+
+.translate-flag{
+   position: fixed;
+   top: 250px;
+   right: 0px;
+   height: 252px;
+   width: 50px;   
+}
+
+
+#translate-flag-brasil{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}  
+
+#flag-brasil-fundo{
+  position: relative;
+  border: solid 1px gray; 
+  border-radius: 15px 0px 0px 15px;
+  width: 100px;
+  height: 50px;
+  background: rgba(112,109,104,.8);
+  
+}
+
+#translate-flag-usa{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#flag-usa-fundo{
+  position: relative;
+  border: solid 1px gray; 
+  border-radius: 15px 0px 0px 15px;
+  width: 100px;
+  height: 50px;
+  background: rgba(112,109,104,.8);
+  top: 50px;
+}
+
+#translate-flag-china{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}                    
+
+#flag-china-fundo{
+  position: relative;
+  background: rgba(112,109,104,.8); 
+  top: 100px;
+  width: 100px;
+  height: 50px;
+  border: solid 1px gray;
+  border-radius: 15px 0px 0px 15px;
+}
+
+
+
+
+
+
+                                     /* Rodapé Superior */
+
+
+.rodape-superior{
+   position: absolute;
+   background:#3c3a3a;
+   height: 100px;
+   top: 6783px;
+   left: 0px;
+   
+
+}
+
+                                /* Icones Feeds Rodapé */
+
+#facebook-icon-rodape{
+   position: absolute;  
+   top: 20px;
+   left:200px;
+   
+}
+
+#instagram-icon-rodape{
+   position: absolute;  
+   top: 15px;
+   left:450px;
+}
+
+#twitter-icon-rodape{
+   position: absolute;  
+   top: 15px;
+   left:700px;
+}
+
+#gmail-icon-rodape{
+   position: absolute;  
+   top: 15px;
+   left:975px;
+
+}
+
+                          /* Rodapé Inferior */
+
+.rodape-inferior{
+   position: absolute;
+   background:#4c4a47;
+   width: 100%;
+   height: 470px;
+   top: 6863px;
+   left: 0px;
+   border-top: 2px  solid black;
+   z-index: 1;
+}
+
+
+                        /* AREA DE CONTATO RODAPÉ */
+
+#contato-rodape{
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+}                         
+
+#icon-email-contato-rodape{
+   position: relative;  
+   top: 50px;
+   left:900px;
+  
+
+}
+
+#text-email-contato-rodape{
+   position: relative;  
+   color: #fa8d57;
+   bottom: 25px;
+   left:958px;
+   font-size: 20px;
+   font-family: 'Pacifico', cursivo;
+   text-shadow: 2px 2px black;  
+
+}
+
+.barra-contato-rodape{
+   position: relative;
+   background: #fa8d57;
+   border: 1px solid black;
+   height: 4px;
+   left: 910px;
+   bottom: 30px;
+   box-shadow: 1px 1px black;
+}  
+
+
+                      /* Formulario */
+
+
+.formulario {
+  position: relative;
+  top: 0px;
+  left: 900px;
+
+}
+
+.formulario form{
+   background: rgba(250,141,87,.8);
+   width: 200px;
+   margin: 0 auto;
+   padding: 1em;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+
+}
+
+.formulario form div{
+   margin-top: 1em;
+   margin-left: -5px;
+
+}
+
+.formulario label{
+   display: block;
+   width: 100px;  
+   font-size: 17px;
+   font-family: 'Bree Serif', serif;
+   
+   
+}
+
+.formulario input, textarea{
+   border-radius: 10px;
+   width: 200px;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 1px solid #999;
+   padding: 5px;
+   font-family: 'Inconsolata', monospace;
+   font-size: 10px;
+   
+}
+
+.formulario textarea{
+   height: 80px; 
+ 
+
+}
+
+.formulario input:focus, textearea:focus{
+   border-color: #000;  
+}
+
+.formulario button{
+   border: 1px solid #999;
+   border-radius: 5px ;
+   width: 80px; 
+   height: 20px;
+}
+
+.button-formulario{
+  
+}
+
+
+                               /* LOCALIZAÇÃO RODAPÉ */
+
+
+.localization{
+   position: absolute;
+   top: 6900px;
+   right: 550px;
+   width: 300px;
+   height: 300px;
+   z-index: 1;
+}
+#localization-top img{
+   position: relative;
+   left: 0px;
+}
+#localization-top{
+   height: 80px;
+}
+
+#localization-top p{
+   position: relative;
+   color: #00ff6c;
+   left: 50px;
+   bottom: 60px;
+   font-size: 20px;
+   font-family: 'Bree Serif', serif; 
+   text-shadow: 3px 3px black;
+}
+
+.barra-localization-rodape{
+   position: relative;
+   background: #00ff6c;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 10px;
+   bottom: 70px;
+   box-shadow: 1px 1px black;
+}
+
+#localization-bottom{
+   position: absolute;
+   background: rgba(0,255,108,.8);
+   width: 280px;
+   left: 5px;
+   top: 100px;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+#localization-bottom p{
+   postion: relative;
+   top: 0px;
+   left: 45px;
+   color: white;
+   font-family: 'Fredoka One', cursive;
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+   text-shadow: 2px 2px 2px black;
+}
+
+
+#localization-bottom img{
+  position: relative;
+  top: 0px;
+  left: 85px;
+}
+
+
+                                 /* DESENVOLVEDOR */
+
+#text-developer{
+  position: absolute;
+  top: 7280px;
+  left: 550px;
+  color: #9f9b9b;
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px;
+  z-index: 1;
+}
+
+#text-developer a{
+  color: #9f9b9b;
+  text-decoration: none;  
+}
+
+#text-developer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+                         /*DESCRIÇÃO "SOBRE" MAIS MINI MENU */
+
+.about-us{
+   position: absolute;
+   left: 50px;
+   top: 6880px;
+   z-index: 1;
+
+}
+.about-us img{
+   position: relative;
+   padding: auto;
+   margin: auto;
+   left: 10px;
+}
+
+.about-us p{
+   position: relative;
+   bottom: 50px;
+   left: 75px;
+   color: #a559d6;
+   font-size: 18px;
+   font-family: 'Fredoka One', cursive;
+   text-shadow: 3px 3px black;
+ 
+}
+
+.barra-about-us{
+   position: relative;
+   background: #a559d6;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 5px;
+   bottom: 55px;
+   box-shadow: 2px 2px black;  
+
+}
+
+.about-us ul{
+  position: relative;
+  list-style: none; 
+  background:rgba(165,89,214,.8);
+  width: 160px;
+  height: 300px;
+  left: 5px;
+  bottom: 30px;
+  border: 2px solid black;
+  border-radius: 1em;
+  box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+.about-us li{
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  right: 40px;
+  font-family: 'Pacifico', cursivo;
+  font-size: 15px;
+  text-shadow: 3px 3px black;
+}
+.about-us a{
+   color: white;
+   text-decoration: none;
+}
+.about-us a:hover{
+   color: gray;
+   text-decoration: underline;
+}
+
+                       
+                                  /* LOGO RODAPÉ KRYPTOBIT COM DATA DE CRIAÇÃO*/
+
+.logo-kryptoBit-rodape{
+   position: absolute;
+   top: 7150px;
+   left: 200px;
+   z-index: 1;
+} 
+ 
+.logo-kryptoBit-rodape img{
+   position: absolute;
+   padding-bottom: 1em;
+   left: 120px;
+}
+
+.logo-kryptoBit-rodape p{
+    position: absolute;
+    color: #9f9b9b;
+    top: 120px;
+    left: 80px;
+    width: 200px;
+    padding-left: 3em;
+}
+
+
+]]></b:skin>
+</head>
+<body>
+
+                                                      <!-- Barra Topo Menu -->
+                                 
+<div class='barra-Header' style='width: 100%'>
+<img alt='KryptoBit' border='0' height='100px' src='https://image.ibb.co/iVgDwV/Letra-KB.png' width='100px'/>
+ 
+
+                                                          <!-- Menu -->	
+    	
+
+<nav id='menu'>
+ <h1> Menu Principal</h1>
+  <ul>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/cMbTWV/Logo-Krypto-Bit.png&apos;)'><a href='https://kryptobitinfo-interfaces.blogspot.com/' target='_self'>Home</a></li>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/gJ1xQq/Logo-Krypto-Bit.png&apos;)'><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>História do HD</a></li>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/idA28A/Logo-Krypto-Bit.png&apos;)'><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Interface</a></li>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/eEMOgV/Logo-Krypto-Bit.png&apos;)'><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Leitura e Gravação</a></li>
+   <li onmouseout='mudaFoto(&apos;https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png&apos;)' onmouseover='mudaFoto(&apos;https://preview.ibb.co/e0pjMV/Logo-Krypto-Bit.png&apos;)'><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Sistema de Arquivos</a></li>
+ </ul>
+</nav>
+
+
+
+
+<img height='140px' id='icon-bar-header' src='https://image.ibb.co/c2yeLq/Vetor.png' width='140px'/>
+<img height='110px' id='icon-bar-header-kryptobit' src='https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png' width='110px'/>
+<script>
+   function mudaFoto (foto){
+     document.getElementById(&quot;icon-bar-header-kryptobit&quot;).src = foto;
+}
+
+</script>   
+
+</div>                     
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ </div>
+
+                                                
+                                           <!-- SLIDE -->
+
+<div id='contaneir'>
+
+
+<hgroup>
+
+<h1>História dos HDs</h1>
+
+<p>
+O <i>Disco rígido</i> ou também conhecido como <em>HD</em> (abreviatura de <b>Hard Disk</b>) é um componente eletrônico e mecânico localizado em seu computador
+e que serve para armazenar as informações que seu computador usa no cotidiano, como o sistema operacional, seus documentos, programas, fotos, vídeos e outros.
+
+</p>
+  
+</hgroup>
+
+<img src='https://preview.ibb.co/ixSH9J/Hard_disk_drive.png'/> 
+
+<hgroup>
+  
+<p>O <em>HD</em> é um dispositivo que vem em constante evolução com o passar do tempo, se nós pegarmos o primeiro <i>HD</i> que se tem notícia que foi 
+<span><em>IBM 305 Ramac</em></span> que tinha tamanhos enormes de <strong>14x8 polegadas</strong> e comparar com os de hoje em dia que chegam a 
+<small>12 cm de comprimento</small> é de cair o queixo. Não é só em tamanho essa evolução, essa evolução também ocorreu na capacidade de armazenamento 
+<span>(Quantidade de dados que o dispositivo suporta)</span>, antes você tinha HDs enormes com capacidades pequenas hoje você tem Hds pequenos com capacidade 
+extremamente grandes, então o HD foi um dispositivo tecnológico que evolui bastante.
+
+</p>
+
+</hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/gnQUpJ/Evolu_o_do_HD.png'/>
+  <figcaption>Foto retirada no metro de São Paulo.</figcaption>
+</figure>
+
+
+<hgroup>
+    <p>Antes do armazenamento em disco, existiam os tambores. Em 1950, a <b>Engineering Research Associates de Minneapolis</b> construiu a primeira unidade de 
+armazenamento magnético de tambor comercial para a Marinha americana, chamada de <b>ERA 110</b>. Ele podia armazenar um milhão de bits de dados (cerca de 1MB) 
+e recuperar uma palavra em 5 milésimos de segundo.
+</p>
+ </hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/gHu1Ry/Era_110.png'/>
+  <figcaption>Primeiro Dispositivos de Armazenamento a usar Tambores.</figcaption>
+</figure>
+
+
+
+<hgroup>
+   <p>A <i>IBM</i> lançou, em 1956, o <span>IBM 305 RAMAC </span><strong>(Random Access Method of Accounting and Control)</strong> o seu primeiro 
+computador produzido em série projetado para executar aplicativos de contabilidade e controle de transações comercias, tais como processamento de pedidos, 
+controle de inventário e folha de pagamento. A grande novidade do <span>305 RAMAC</span> não estava na sua capacidade de processamento, 
+mas na utilização de um novo equipamento periférico para a entrada e saída de dados, denominado <strong>&quot;Unidade de Disco IBM 350&quot;</strong>, 
+o qual permitia a gravação e leitura de dados de forma extremamente rápida quando comparada aos outros meios de armazenamento usados até então. 
+Do tamanho de dois refrigeradores, o IBM 350 consistia de 50 discos de 60 cm de diâmetro montados e centralizados em único pivô movido por um motor e que 
+somavam 5 megabytes de capacidade, os quais eram acessados a uma taxa de 10 kilobytes por segundo.
+
+</p>
+ </hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/deKm3d/IBM_305_RAMAC.png'/>
+  <figcaption>Primeiro Dispositivo de Armazenamento a usar Discos.</figcaption>
+</figure>
+
+
+
+<hgroup>
+    <p>Lançada em 1961, a <b>&quot;Model 1301 Disk Storage Unit&quot;</b> (algo como <b>&quot;Unidade de armazenamento em disco modelo 1301&quot;</b>) foi a sucessora do RAMAC. Ela usava uma cabeça de leitura e gravação diferente para cada disco, eliminando a necessidade de retrair e reposicionar a cabeça sempre que era necessário acessar dados em outro disco.
+A capacidade de armazenamento era de 28 MB, e o 1301 foi o primeiro <i>&quot;HD&quot;</i> a usar cabeças aerodinamicamente projetadas, que <i>&quot;voa&quot;</i> sobre a superfície do disco sustentadas por uma fina camada de ar, o que reduziu o atrito e o tempo de acesso aos dados, que era de apenas 180 millisegundos.
+Na época era possível comprar um 1301 por apenas US$ 115 mil, ou alugar por US$ 2.100 mensais. </p>
+ </hgroup>  
+
+<figure>
+ <img src='https://preview.ibb.co/kcjPeJ/IBM_1301_Disk_Storage_Unit.png'/>
+ <figcaption/>
+</figure>
+
+<hgroup>
+    <p>Após um esforço de desenvolvimento que começou no verão de 1969, a unidade de disco <i>IBM 3340</i> foi lançada em março de <b>1973</b> com uma avançada tecnologia de disco conhecida como <b>&quot;Winchester&quot;</b>. * As primeiras <i>3340</i> remessas para clientes começaram em novembro de 1973, uma unidade de disco rígido lacrada, o antecessor de todos os atuais discos rígidos que conhecemos atualmente (não é a toa que muitos profissionais mais velhos que lidam com informática ainda falam &quot;Winchester&quot;). O <i>3340</i> tinha dois fusos com capacidade de 30MB cada um e por isso o termo <b>&quot;Winchester 30/30&quot;</b>.
+ </p>
+ </hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/i9189J/IBM_3340.png'/>
+  <figcaption/>
+</figure>
+
+<hgroup>
+    <p>Em 1973 os discos flexíveis de oito polegadas foram introduzidos no mercado pela <i>IBM</i>. Eram discos grandes e podiam ser vendidos com drive e fonte de alimentação para que pudesse ser inserido o disco e lidos pelo computador
+ </p>
+ </hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/e6JD9J/Diskttes_2_IBM.png'/>
+  <figcaption/>
+</figure>
+
+<hgroup>
+    <p>Em 1980 a <i>Seagate</i> lançou o <i>ST-506</i>, o primeiro disco rígido de 5,25 polegadas.
+Ele tinha apenas 5MB, capacidade igualada por máquinas de décadas, mas com 
+certeza era pequeno, pequeno o suficiente para ser usado quase universalmente 
+nos primeiros microcomputadores da época, os progenitores de nossos PCs.
+ </p>
+ </hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/f4gouJ/ST540.png'/>
+  <figcaption/>
+</figure>
+
+<hgroup>
+    <p>O primeiro drive de disquete de 3.5 foi feito pela Rodime em 1983 e tinha capacidade de armazenamento de 10MB.
+ </p>
+ </hgroup>  
+
+<figure>
+ <img src='https://preview.ibb.co/bvP58d/disquete_3_5.png'/>
+ <figcaption/>
+</figure>
+
+<hgroup>
+    <p>Em 1985 a <i>Quantum Corporation</i>, desenvolveu o primeiro cartão <b>ISA Hardcard</b>, que era Um disco rígido <i>&quot;Hardcard 20&quot;</i>; 
+em um cartão com uma capa de acrílico.
+</p>
+ </hgroup>  
+
+<figure>
+ <img src='https://preview.ibb.co/hr6MWy/Hard_Card20.png'/>
+ <figcaption/>
+</figure>
+
+<hgroup>
+    <p>Em 1986 começaram a serem produzidos os discos rígidos de 3.5 polegadas com atuadores de bobina de voz para as cabeças lerem os discos. Em 1988 estes atuadores diminuíram drasticamente fazendo com que cada vez mais os drivers ficassem menores.
+
+</p>
+ </hgroup>  
+
+<figure>
+ <img src='https://preview.ibb.co/d3aRyd/Atuadores.png'/>
+ <figcaption/>
+</figure>
+
+<hgroup class='contaneir-1997'>
+
+<p>
+Em 1997, os computadores estavam ficando rápidos, mas os discos rígidos não estavam acompanhando esta velocidade. Assim a Seagate lançou o primeiro HD Ultra ATA de 7.200 rotações por minuto para computadores desktop. Oito anos depois é lançado pela mesma fabricante o disco rígido com 15.000 rotações por minuto, chamado de Cheetah X15.
+
+Alguns marcos que o IDE DMA, ATA/33 e ATA/66 tiveram:
+</p>
+<ul>
+  <li>1994 - DMA, Modo 2 com 16,6 MB/s</li>
+  <li>1997 - Ultra ATA/33 com 33.3 MB/s de velocidade de leitura</li>
+  <li>1999 - Ultra ATA/66 com 66,6 MB/s de velocidade de leitura</li>
+  </ul>
+
+ </hgroup>  
+
+<figure>
+  <img src='https://preview.ibb.co/e4KByd/HDs_Seagete.png'/>
+  <figcaption/>
+</figure>
+</div>
+
+                                       <!-- BANDEIRAS PARA TRADUÇÃO DA PÁGINA -->
+
+
+<div class='translate-flag'>
+ <div id='flag-brasil-fundo'>
+  <img height='30px' id='translate-flag-brasil' src='https://image.ibb.co/gYWEjU/Flag-Brasil.png' width='30px'/>
+ </div>
+ <div id='flag-usa-fundo'>
+  <a href='#'><img height='30px' id='translate-flag-usa' src='https://image.ibb.co/fsETB9/Flag-USA.png' width='30px'/></a>
+ </div>
+ <div id='flag-china-fundo'>
+  <a href='#'><img height='30px' id='translate-flag-china' src='https://image.ibb.co/bWU9jU/Flag-China.png' width='30px'/></a>
+ </div>
+</div>
+
+                                            
+                                             <!-- RODA SUPERIO E FEEDS -->
+
+
+
+
+<div class='rodape-superior' style='width: 100%'>
+
+    <a href="https://www.facebook.com/kryptobitinfo/" target="_blank">  
+     <img height='50px' id='facebook-icon-rodape' src='https://image.ibb.co/iN3JJp/Facebook_1.png' width='50px'/>
+    </a>
+    <a href="https://www.instagram.com/kryptobit_info/" target="_blank">
+     <img height='55px' id='instagram-icon-rodape' src='https://image.ibb.co/iWG2B9/Instagram.png' width='55px'/>
+    </a>
+    <a href="https://twitter.com/kryptobit_info" target="_blank">  
+     <img height='55px' id='twitter-icon-rodape' src='https://image.ibb.co/dE8qW9/Twitter.png' width='55px'/>
+    </a>
+    <a href="https://mail.google.com/mail/u/0/?tab=wm#inbox?compose=DmwnWrRttWSdCZkgtklnPZtScCnJmrQlFWRhVtPCcJqFCFvvTpzTlDjWxGxqZnhnLRxCKTbCPxsG" target="_blank">
+     <img height='55px' id='gmail-icon-rodape' src='https://image.ibb.co/kBHTJp/G_Mail.png' width='55px'/>
+    </a>
+  
+</div>
+
+
+                                               <!-- RODAPÉ INFERIOR -->
+
+
+<div class='rodape-inferior' style='width: 100%'>
+ 
+ 
+
+
+                                        <!-- CONTATO E FORMULARIO RODAPÉ -->
+
+
+ <div id='contato-rodape'>
+    <img height='55px' id='icon-email-contato-rodape' src='https://image.ibb.co/eu6YjU/Email.png' width='55px'/>
+    <p id='text-email-contato-rodape'>Fale Conosco:</p>
+    <div class='barra-contato-rodape' style='width: 232px;'/>
+
+<script>
+  function validacao(){
+    if(document.form.nome.value==&quot;&quot;) {
+         alert(&quot;Por favor, preencha o campo nome.&quot;);
+         document.form.nome.focus();
+         return false; 
+  }
+
+
+    if(document.form.email.value==&quot;&quot; \\ document.form.email.value.indexOf(&#39;@&#39;)==-1 \\ document.form.email.value.indexOf(&#39;.&#39;)==-1){
+          alert(&quot;Por favor, digite um endereçõ de e-mail válido&quot;);
+          document.form.email.focus();
+          return false;
+
+
+}
+
+
+    if(document.form.senha.value.length 8) {
+          alert(&quot;A senha não pode conter menos que 8 caracterres.&quot;)
+          document.form.senha.focus();
+          return false;
+ }
+
+}
+
+
+
+</script>
+
+
+     <div class='formulario'>
+      <form action='page.com' method='post' name='form' onSubmit='return validacao()'>
+        <div>
+           <label for='name'>Name:</label>
+           <input id='nome' name='usuario_name' type='text' value='Digite seu Nome'/>
+        </div>
+  
+        <div>
+           <label for='email'>E-mail:</label>
+           <input id='email' name='usuario_email' type='email' value='Digite seu E-mail'/>
+        </div>
+
+        <div>
+           <label for='msg'>Mensagem:</label>
+           <textarea id='msg' name='usuario_msg'>Digite sua Mensagem</textarea>
+        </div>
+ 
+       <div class='button-formulario'> 
+           <button type='submit'>Enviar</button>
+       </div>
+     </form>
+    </div>
+ </div>
+</div>
+
+
+                                                     <!-- LOCALIZAÇÃO RODAPÉ -->
+
+
+
+<div class='localization'>
+     <div id='localization-top'>
+       <img height='50px' src='https://image.ibb.co/n2ZCEU/Localiza_o.png' width='50px'/>
+         <p>KryptoBit Localização</p>   
+         <div class='barra-localization-rodape' style='width: 270px;'/>  
+      </div>
+      <div id='localization-bottom'>   
+          <p id='localization-text-endereco'>Fortaleza-CE / Brasil</p>
+          <img height='120px' id='localization-img-mapa' src='https://image.ibb.co/dzVKDp/Mapa.png' width='120px'/>
+       </div>
+</div>
+
+     <p id='text-developer'>Desenvolvedor:<a href='#'> John Anderson</a></p>
+
+ <div class='about-us'>
+   <img height='50px' src='https://image.ibb.co/cvwFM9/Contato.png' width='50px'/>
+      <p>Sobre:</p>
+      <div class='barra-about-us' style='width: 200px;'/> 
+ 
+   <ul>
+       <li><a href='#'>Inicio</a></li>       
+       <li><a href='#'>Sobre</a></li>
+       <li><a href='#'>Serviços</a></li>
+   </ul>
+        
+ </div>
+
+                                                <!-- LOGO RODAPÉ KRYPTOBIT -->
+
+ 
+ <div class='logo-kryptoBit-rodape'>
+   <img height='120px' src='https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png' width='120px'/>
+  <p>Krypto Bit - 2018</p>
+</div>
+  
+
+
+</body>
+</html>

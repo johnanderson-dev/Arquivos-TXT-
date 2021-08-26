@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='rockpool.xml' b:templateVersion='1.2.0' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <link href='css/mobile.css' media='(max-width: 320px)' rel='stylesheet'/>    
+
+<title>KryptoBit Info</title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin><![CDATA[
+@import url('https://fonts.googleapis.com/css?family=Pacifico'); 
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black'); 
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+
+
+body{ 
+   background-color: #008691;
+
+}
+           
+                              /* Logo príncipal */ 
+
+a{
+  color: gray;
+  text-decoration: none;
+  
+}
+
+a hover{
+  color: orange;  
+}
+                              /*Barra de Opçoes*/
+
+.barra-de-opcoes img{
+       width: 100%;
+       height: 50px;
+       position: absolute;
+       top: 295px;
+       left: 0px;
+}                  
+
+                          /* Icone Vendetta V Gamerz ( redendo ) */ 
+
+.avatarcontainer{
+    position:absolute;                            /* posição livramente da icone na pagina fora da sua div*/
+    top:200px;                                    /* 430 pixels do icone em relação ao top  */
+    left:630px;                                    /* 80 pixels do icone em relação a borda esquerda */
+    transition:width 0.4s ease-in-out;            /* Transição que você altera os valores suavemente */
+   -moz-transition:width 0.4s ease-in-out;        /* mozila firefox */
+   -webkit-transition:width 0.4s ease-in-out;     /* Safari */
+   -o-transition:width 0.4s ease-in-out;          
+}
+
+.avatarcontainer img{
+	height:auto;                              /* Altura do icone em si */
+	display:inline;
+	margin-top:-201px;                        /* distância do topo em relação ao topo */
+	transition:margin-top 0.2s ease-in-out; 
+	-moz-transition:margin-top 0.2s ease-in-out; 
+	-webkit-transition:margin-top 0.2s ease-in-out; 
+	-o-transition:margin-top 0.2s ease-in-out;
+}
+
+#outerheaderauthor.sticky .avatarcontainer img{
+        margin-top:500px;
+
+}                                                   
+
+
+.text-kryptobit{
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    width: 600px;
+}
+
+                              /* Menu */ 
+
+nav#menu-right{
+    display: block;
+
+}
+nav#menu-right h1{
+    display: none;
+
+
+}
+nav#menu-right ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 110px;
+    right: 230px;
+}
+
+nav#menu-right li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu-right li:hover{
+    background-color: #606060;
+
+}
+nav#menu-right a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu-right a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+
+
+
+nav#menu-left{
+    display: block;
+
+}
+nav#menu-left h1{
+    display: none;
+
+
+}
+nav#menu-left ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 110px;
+    left: 190px;
+}
+
+nav#menu-left li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu-left li:hover{
+    background-color: #606060;
+
+}
+nav#menu-left a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu-left a:hover{
+    color: white;
+    text-decoration: underline;
+
+
+}
+ 
+                                    /* CONTANEIR */ 
+
+
+
+
+#contaneir{
+    position: absolute; 
+    background: rgba(169, 162, 162, 0.8);
+    top:500px;
+    width: 1000px;
+    height:3700px;
+    left: 170px;
+    top: 400px;
+    border-radius: 7px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 1px;  
+}
+
+#contaneir h1{
+  position: relative;
+  text-align: center;
+}
+#contaneir h2{
+  position: relative;
+  text-align: center;
+}
+#contaneir p{
+  position: relative;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+  text-indent: 50px;
+  text-shadow: 0.2px 0.2px #1c1c1c;
+  left: 175px;
+  width: 650px;
+
+}
+
+#contaneir img{
+  position: relative;
+  left: 175px;
+  border: solid 3px black;
+  border-radius: 7px;
+}
+
+
+                                                 /* CONTADOR */ 
+
+#contador{
+   position: absolute;
+   top: 4600px;
+   right: 50px;
+}
+
+#comment{
+  display: none;
+  position: absolute;
+  top: 3300px;
+  left: 350px;
+}
+.comment-file{
+   position: relative;
+   top: -30px;
+   left: 70px;
+
+}
+
+.table-PIO{
+   position: relative;
+   border: 1px solid black;
+   left:400px;
+   background: black;
+  
+}
+.table-PIO tr{ 
+   background: gray;
+  
+}
+.table-PIO td{
+   text-align: center;
+  
+}
+#table-PIO-tr{
+  background: #399AE5;
+  color: white;
+ 
+
+}
+
+                                        /* RODAPÉ */ 
+
+
+.rodape{
+   background: rgb(66,66,66);
+   position: relative;
+   weidth: 100%;
+   height: 300px;
+   margin-bottom:-20px;
+   top: 4300px;
+   left: -13px;
+   border: 2px solid #000000;
+   border-radius: 2px;
+   border-top-left-radius: 10px; 
+   border-top-right-radius: 10px;
+   boder-shadow: 2px 2px 2px #000;
+   
+}
+
+#localizacao{
+   position: absolute;
+   top: 4350px;
+   
+   
+}
+
+#localizacao img{
+  width: 160px;
+  height: 110px;
+  border: solid 3px #00d15e;
+  border-radius: 7px;
+
+}
+#localizacao p{
+   color: rgb(0,209,94);
+   border-bottom: 2px solid #00d15e;
+   padding: 0px 0px 5px 5px;
+   font-family: 'Chela One', cursive;
+   font-size: 18px;
+   text-shadow: 2px 2px 2px #000;
+   
+}
+#endereco ul{
+   position: absolute;
+   color: rgb(0,209,94);
+   list-style: none;
+   top: 4420px;
+   left: 200px;
+   border-left: 2px solid #00d15e;
+   font-family: 'Chela One', cursive;
+   font-size: 15pt;
+   text-shadow: 2px 2px 2px #000;
+  
+}
+
+#rodape-sociais{
+   position: absolute;
+   top: 4350px;
+   left: 550px;
+}
+
+#rodape-sociais p{
+   font-size: 18px;
+   color: #FF7B0D;
+   border-bottom: 2px solid #FF7B0D;
+   padding: 0px 0px 5px 5px;
+   font-family: 'Chela One', cursive;
+   text-shadow: 2px 2px 2px #000;
+}
+rodape-sociais-feeds{
+  position:absolute;
+  color: white;
+
+}
+.rodape-sociais-feeds tr{
+  position: relative;
+  color: #FF7B0D;
+  list-style: none;  
+  left: 0px;
+  
+}
+
+.rodape-sociais-feeds td{
+  background: #494949;
+  border-radius: 7px;
+  marging-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+.rodape-sociais-feeds-tw img{
+  position: relative;
+  left: -30px;
+  top: 3px;
+}
+.rodape-sociais-feeds-tw a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-tw a:hover{
+  color: #8e24aa;
+
+}
+.rodape-sociais-feeds-fc img{
+  position: relative;
+  left: -20px;
+  top: 3px;
+}
+.rodape-sociais-feeds-fc a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-fc a:hover{
+  color: #8e24aa;
+
+}
+.rodape-sociais-feeds-in img{
+  position: relative;
+  left: -20px;
+  top: 3px;
+}
+.rodape-sociais-feeds-in a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-in a:hover{
+  color: #8e24aa;
+
+}
+.rodape-sociais-feeds-g img{
+  position: relative;
+  left: -30px;
+  top: 3px;
+}
+.rodape-sociais-feeds-g a{
+  position: relative;
+  left: -5px;
+  top: -2px;
+  color: #FF7B0D;
+}
+.rodape-sociais-feeds-g a:hover{
+  color: #8e24aa;
+
+}
+#google_translate_element{
+   position: absolute;
+   top: 4350px;
+   left: 1000px;
+   text-shadow: 2px 2px 2px #000;
+}
+
+#rodape-develope p{
+   position: absolute;
+   top: 4530px;
+   left: 1000px;
+   text-shadow: 2px 2px 2px #000;
+   color: rgba(160,160,158,1);
+   font-family: 'Pacifico', cursive;
+}
+#rodape-develope p a:hover{
+  color: #8e24aa;
+
+}
+]]></b:skin>
+</head>
+<body>
+
+
+<header>
+                                        <!--Logo Header-->
+ 
+<div class='avatarcontainer'>
+  <img alt='' class='avatar avatar-123 photo' height='123' id='photo' onclick='transitionInstagram()' src='https://preview.ibb.co/hhrRtJ/Background_Verde.png' width='123'/>
+ </div>
+
+<div class='follow'>
+  <img alt='' height='150px' src='' width='300px'/>  
+</div>
+  
+                                    <!--Texto KryptoBit Info-->
+
+  <img alt='' class='text-kryptobit' src='https://preview.ibb.co/cxnvmo/Texto_Krypto.png'/>
+</header>
+                                              <!-- Feeds -->
+
+                                                             <!-- Menu -->	
+
+    	
+
+<nav id='menu-right'>
+<h1> Menu Principal</h1>
+<ul>
+<li><a href='https://kryptobitinfo-interfaces.blogspot.com/' target='_self'>Interfaces</a></li>
+  <li><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Leitura e Gravação</a></li>
+</ul>
+</nav>
+
+<nav id='menu-left'>
+<h1> Menu Principal</h1>
+<ul>
+  <li><a href='https://kryptobitinfo-historiadohd.blogspot.com/' target='_self'>História do HD</a></li>
+  <li><a href='https://kryptobitinfo-sistemadearquivos.blogspot.com/' target='_self'>Sistemas de Arquivos</a></li>
+</ul>
+</nav>
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ </div>
+
+<div id='contaneir'>
+
+  <h1>Interface IDE</h1>
+
+<hgroup>
+<p>
+Antes da tecnologia IDE, as interfaces eram acopladas a uma placa controladora que eram conectadas ao HD, porém, esse tipo de tecnologia trazia uma seria de problemas. Não demorou muito para que os fabricantes percebessem isso. Desenvolve-se então o padrão IDE (Integrated Drive Eletronics), como o próprio nome já diz: Unidade Eletrônica Integrada. No caso a controladora integrada no próprio HD que oferecem diversas vantagens, pois elimina os problemas de sincronismo causados pelo uso de cabos longos e simplifica todo o design.  
+  
+
+</p>
+  
+</hgroup>
+
+<img src='https://preview.ibb.co/mqUJbK/Controladora_MFM.png'/> 
+
+<hgroup>
+  
+ <p>Em 1986 chegaram ao mercado os novos padrões IDE, mas inicialmente os primeiros anos foram marcados por problemas de compatibilidade entre os diferentes produtos de diferentes fabricantes. O ANSI (American National Standards Institute), em 1990, aplicou as devidas correções para padronização e foi criado o padrão ATA (Advanced Technology Attachment). Porém com o nome IDE já estava mais conhecido, ele permaneceu, embora algumas vezes fosse chamado de IDE/ATA.
+
+</p>
+
+</hgroup>  
+
+<img src='https://preview.ibb.co/m4aNo9/IDE_Padr_o_ANSI.png'/>
+
+ <hgroup> 
+   <p>Com a popularização deste padrão, as placas-mãe passaram a oferecer dois conectores IDE (IDE 0 ou primário; e IDE 1 ou secundário), sendo que cada um é capaz de conectar até dois dispositivos. Essa conexão é feita ao HD (e a outros dispositivos compatíveis com a interface) por meio de um cabo flat (flat cable) de 40 vias. Posteriormente, chegou ao mercado um cabo flat de 80 vias, cujos fios extras servem para evitar a perda de dados causada por ruídos (interferência).</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/cLHtVp/Interface_IDE_40_Vias_vs_80_Vias.png'/>
+
+<hgroup>
+   
+   <p>Para fazer a conexão de dois dispositivos em um único cabo Flat IDE, faz se o uso de uma peça chamada Jumper, que fica encaixada na parte traseira do HD entre o conector IDE e a entrada de alimentação (Molex), tornando-o com o uso desse Jumper o dispositivo primário. Se caso houver dois HDs &quot;setados&quot; igualmente como primários ou secundários ou caso de problema de conexão nas conexões de máster e slave, o computador poderá ter dificuldades para reconhecê-los. Nesse caso existi uma terceira opção que é &#8220;Cable Select&#8221;. Esta configuração faz com que a escolha da unidade primária normalmente fique para o dispositivo conectado na ponta do cabo e a secundária com o aparelho que é interligado ao encaixe existente no meio do cabo.</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/f2xHrU/Posi_o_do_Jumper_Master_Slave_Cable_Select.png'/>
+
+<hgroup>
+  <h2>EIDE (Enhanced Integrated Drive Electronics)</h2>
+   <p>EIDE (Enhanced IDE) é uma extensão da IDE desenvolvida pela Western Digital, é ele que possibilita ser feito a conexão de 4 dispositivos na placa-mãe , como também, trabalha com possibilidades de taxa de transferências maiores entre 4 e 16,6 MBps,  cerca de três a quatro vezes mais rápido que o padrão IDE antigo.<br/>
+ Além disso, ele pode suportar dispositivos de armazenamento em massa de até 8,4 gigabytes, enquanto o padrão antigo era limitado a 528 MB. Devido ao seu baixo custo, o EIDE aprimorado substituiu o SCSI em muitas áreas.
+O EIDE é muitas vezes chamado de Fast ATA ou Fast IDE, que é essencialmente o mesmo padrão, desenvolvido e promovido pela Seagate Technologies. Também é chamado às vezes de ATA-2.<br/>
+Existem quatro modos EIDE definidos. O mais comum é o Modo 4, que suporta taxas de transferência de 16,6 MBps. Há também um novo modo, chamado ATA-3 ou Ultra ATA , que suporta taxas de transferência de 33 MBps.
+</p>
+ </hgroup>  
+
+
+
+<hgroup>
+  <h2>ATAPI (Advanced Technology Attachment Packet Interface)</h2>
+   <p>Na interface IDE há também a possibilidade de se conectar até 4 dispositivos graças a tecnologia (EIDE), aonde se podia exclusivamente conectar-se apenas disco-rígidos. Dispositivos CD-ROMs e drives de fita utilizavam interfaces proprietárias ou interface de disquetes(FDD). Para que se houvesse conexões de outros dispositivos, criou-se então uma extensão do protocolo IDE/ATA que foi a tecnologia ATAPI (Advanced Technology Attachment Packet Interface). Vale lembrar que o próprio computador, por meio de sua BIOS e/ou do chipset da placa-mãe, reconhece que tipo de aparelho está conectado em suas entradas IDE e utiliza a tecnologia correspondente (em geral, ATAPI para unidades de CD/DVD e outros, ATA para discos rígidos).</p>
+ </hgroup>  
+
+<hgroup>
+  <h2>DMA (Direct Memory Access)</h2>
+   <p>DMA é uma sigla relacionada com o mundo da tecnologia que significa Direct Memory Access, ou em português Acesso Direto à Memória. O DMA é uma característica dos computadores mais modernos que possibilita que determinados subsistemas de hardware dentro do computador acessem a memória do sistema, sem depender da unidade de processamento central (CPU).<br/>
+O DMA é um recurso da placa mãe que capacita os periféricos a terem acesso direto à memória RAM, sem sobrecarregarem o processador. Com o DMA, as transferências de dados ocorrem sem a intervenção da CPU por cada byte que é transferido. Desta forma, a transferência de dados ocorre de forma muito mais rápida. Muitos sistemas de hardware usam o processo DMA, incluindo controladores de disco, placas de vídeo, placas de rede e placas de som.<br/>
+Quando o DMA não está em uso, normalmente é utilizado um esquema de transferência de dados conhecido como modo PIO (Programmed I/O), onde, grossamente falando, o processador executa a transferência de dados entre o HD e a memória RAM. Cada modo PIO trabalha com uma taxa distinta de transferência de dados, conforme mostra a seguinte tabela:</p>
+ 
+<table cellpadding='5px' cellspacing='2x' class='table-PIO'>
+<tr id='table-PIO-tr'>
+  <td>Modo PIO</td>
+  <td>Taxa de transferência</td>
+</tr>
+<tr>
+  <td>Modo 0</td>
+  <td>3,3 MB/s</td>
+</tr>
+<tr>
+  <td>Modo 1</td>
+  <td>5,2 MB/s</td>
+</tr>
+<tr>
+  <td>Modo 2</td>
+  <td>8,3 MB/s</td>
+</tr>
+<tr>
+  <td>Modo 3</td>
+  <td>11,1 MB/s</td>
+</tr>
+<tr>
+  <td>Modo 4</td>
+  <td>16,7 MB/s</td>
+</tr>
+<tr>
+  <td>Modo 5</td>
+  <td>20 MB/s</td>
+</tr>
+</table>
+
+</hgroup>  
+
+<hgroup>
+  <h2>UDMA ou Ultra-DMA (Ultra Direct Memory Access)</h2>
+   <p>Esta especificação permite transferência de dados em uma taxa de, pelo menos, 33,3 MB/s (megabytes por segundo). O padrão UDMA não funciona se somente for suportado pelo HD - é necessário que a placa-mãe também a suporte (na verdade, o seu chipset), caso contrário, o HD trabalhará com uma taxa de transferência mais baixa. Veja o porquê: há 4 tipos básicos de Ultra-DMA: UDMA 33, UDMA 66, UDMA 100 e UDMA 133. Os números nestas siglas representam a quantidade de megabytes transferível por segundo. Assim, o UDMA 33 transmite ao computador dados em até 33 MB/s; o UDMA 66 faz o mesmo em até 66 MB/s e assim por diante. Agora, para exemplificar, imagine que você instalou um HD UDMA 133 em seu computador. No entanto, a placa-mãe só suporta UDMA de 100 MB/s. Isso não significa que seu HD vai ficar inoperante. O que vai acontecer é que seu computador somente trabalhará com o HD na taxa de transferência de até 100 MB/s e não na taxa </p>
+  </hgroup>
+<h1>Interface SATA (Serial Advanced Technology Attachment)</h1>
+<hgroup>
+  <p>A especificação SATA (Serial ATA) se tornou padrão no mercado, já que oferece várias vantagens em relação ao PATA, como maiores taxas de transmissão de dados, dispensa de uso de jumpers, cabos de conexão e alimentação mais finos (facilitando a circulação de ar dentro do computador), entre outros.</p>
+<p>
+A interface SATA não conta com o esquema de permitir dois dispositivos por cabo, mas isso não chega a ser um problema: como seu conector é pequeno, sua instalação é mais fácil, por isso, é comum encontrar placas-mãe que possuem quatro, seis ou até oito conectores neste padrão.
+</p> 
+ </hgroup>
+
+</div>
+<div class='rodape' style='width:1350px'/>
+
+<!-- CONTADOR -->      
+                              
+<div align='center' id='contador'>
+   <a href='https://contador.s12.com.br'>
+     <img alt='contador de acesso grátis' border='0' src='https://contador.s12.com.br/img-72aZx717xZ9c007b-57.gif'/>
+   </a>
+    <script src='https://contador.s12.com.br/ad.js?id=72aZx717xZ9c007b' type='text/javascript'/>
+</div>
+
+
+                            <!-- Comentarios -->
+
+
+<div id='comment'>
+  <h3> Comentário </h3>
+<form action='#' method='get'>
+
+  
+  
+     Assunto:<br/>
+   <input name='fullname' size='103px' type='text'/><br/><br/>
+  
+     E-mail:<br/>
+     <input name='emailaddress' size='103px' type='email'/><br/><br/>
+
+       
+      Mensagem:<br/>
+<textarea cols='78' maxlength='550' rows='10'/>
+   <br/>
+ 
+<input height='70' onclick='msg()' src='https://preview.ibb.co/duofmo/Submit_Button.png' type='image' width='100'/>
+<input class='comment-file' name='myFile' type='file'/>
+</form>
+<script>
+function msg() {
+    alert(&#39;Indisponivel no momento!&#39;);
+}
+</script>
+
+</div>
+                                    
+
+
+
+<!-- RODAPÉ -->
+
+<div id='localizacao'>
+  <p>KryptoBit - Localização</p>
+  <img src='https://1igr.com/wp-content/uploads/2016/06/hyperlocal-research.jpg'/>
+</div>
+<div id='endereco'>
+  <ul>
+   <li>Brazil</li>
+   <li>Fortaleza-CE</li>
+   <li>Bairro: João XXIII</li>
+  </ul>
+ </div>
+
+<div id='rodape-sociais'>
+  <p> Redes Sociais: </p>
+
+ <div class='rodape-sociais-feeds'> 
+<table cellpadding='5px' cellspacing='5px'>
+    <tr>
+      <td class='rodape-sociais-feeds-fc'><img height='20px' src='https://image.ibb.co/iwoa48/facebook_circle_gray_512.png' width='20px'/><a href='https://www.facebook.com/kryptobitinfo/' target='_blank'>Facebook</a></td>
+        
+    </tr>
+<tr>
+      <td class='rodape-sociais-feeds-in'><img height='20px' src='https://image.ibb.co/bNBOro/Insta.png' width='20px'/><a href='https://www.instagram.com/kryptobit_oficial' target='_blank'>Instagram</a></td>
+        
+    </tr>
+<tr>
+        <td class='rodape-sociais-feeds-tw'><img height='23px' src='https://image.ibb.co/icswBo/twitter_logo_icon_icons.png' width='23px'/><a href='https://twitter.com/kryptobit_info' target='_blank'>Twitter</a></td>
+        
+    </tr>
+<tr>
+<td class='rodape-sociais-feeds-g'><img height='20px' src='https://image.ibb.co/dknwBo/gmail_logo_PNG12.png' width='26px'/><a href='mailto:kryptobitoficial@gmail.com' target='_blank'>E-mail</a></td>
+        
+    </tr>
+   </table>  
+</div>
+
+</div>
+                                                      <!-- Tradutor -->
+
+<div id='google_translate_element'/>
+<div id='rodape-develope'>
+  <p>Develope:<a alt='' href='' target='_self'>John Anderson</a> </p>
+</div>
+<script type='text/javascript'>
+function googleTranslateElementInit() {
+new google.translate.TranslateElement({pageLanguage: &#39;en&#39;}, &#39;google_translate_element&#39;);
+}
+</script>
+
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit' type='text/javascript'/>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+                         META_HTTP-EQUIV
+
+<meta http-equiv="content-language" content="pt-br">
+                  Essa meta tag é a responsável por definir o idioma principal em que a sua página foi escrita.
+                  Essa tag é a que faz com que os buscadores coloquem a sua página nas buscas de acordo com o 
+                  idioma apropriado da busca e do seu site, além de orientar os navegadores em questão de acentos, etc.
+                  Abaixo vou colocar uma lista de alguns dos valores possíveis para essa meta tag:
+pt - Português
+pt-br - Português do Brasil
+en - Inglês
+en-us - Inglês dos EUA
+en-gb - Inglês Britânico
+fr - Francês
+de - Alemão
+es - Espanhol
+it - Italiano
+ru - Russo
+zh - Chinês
+ja - Japonês
+
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+                  Especifica o tipo de conteúdo da página e o conjunto de caracteres que ele usa. É recomendável utilizar
+                  esta meta tag em todas as páginas do seu site, porque ela garante que os navegadores irão tratar seu 
+                  documento da maneira mais apropriada, especialmente quando você utiliza formulários para enviar informações entre páginas.
+
+<meta http-equiv="refresh" content=" 2 ">
+                  Quando queremos fazer um redirecionamento de página, ou seja, quando o usuário entrar em uma página, eu quero que ele seja 
+                  redirecionado para outra, existe a meta tag refresh, utilizando uma única linha, como podemos ver na listagem 11.
+
+<meta http-equiv="cache-control"   content="no-cache" />
+                  Esta tag é apenas reconhecida pelo http 1.1 e permite os seguintes valores:
+
+                  Public: Os dados da página podem ser armazenados de forma compartilhada, isto é, será utilizado por diferentes usuários de um 
+                  mesmo browser (Notar que só é possível especificar usuários de browser no Firefox e Opera).
+                  Private: É o contrário de public, o cache é armazenado para um específico usuário.
+           
+                  *Public: Os dados da página podem ser armazenados de forma compartilhada, isto é, será utilizado por diferentes usuários de um mesmo browser.
+                  *Private: É o contrário de public, o cache é armazenado para um específico usuário. 
+                  *No-Cache: A página não é armazenada em Cache.
+                  *No-Store: É feito um cache temporário, a página não é arquivada.
+
+                  Nota: A diretiva "cache-control:no-cache" tem a mesma função de "pragma:no-cache". O ideal quando se usa essa instrução é utilizar
+                  ambas as formas caso não se saiba se o servidor é ou não compatível com o HTTP 1.1.
+
+
+<meta http-equiv="expires" content = "Mon, 22 jul 2006 11:12:01 GMT" />
+                  A data e a hora depois dos quais o documento deve ser considerado como expirado. Uma data ilegal como, por exemplo "0" é considerada como "agora".
+
+                  Configurar "Expires" como "0" pode também ser usado para forçar uma nova checagem a cada visita do robô de busca.
+
+                  Nota: Alguns robôs de busca podem deletar um documento de seu banco de dados ao encontrá-lo expirado, outros podem marcar uma revisita
+
+
+<meta http-equiv="pragma" content="no-cache" />
+                  Faz com que o navegador não armazene a página em cache. Diferencia-se de "cache-control:no-cache" pelo fato de ser reconhecida por todas as versões do HTTP.
+
+<meta http-equiv="imagetoolbar" content="no" />
+                  No internet explorer elimina aquela pequena barra de opções que aparece ao passarmos o mouse por cima de uma imagem
+
+<meta http-equiv="content-script-type" content="text/javascript" />
+                  Define o tipo padrão da linguagem de script do documento.
+
+<meta http-equiv="content-style-type" content="text/css" />
+                  Define o tipo padrão de linguagem para estilização do documento.
+

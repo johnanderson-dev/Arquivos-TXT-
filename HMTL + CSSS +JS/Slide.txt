@@ -1,0 +1,161 @@
+<html>
+<head>
+<title></title>
+<style></style>
+</head>
+<body>
+<!-- Slideshow HTML -->
+<div id="slideshow">
+  <div id="slidesContainer">
+    <div class="slide">
+      <!-- Content for slide 1 goes here -->
+    </div>
+    <div class="slide">
+      <!-- Content for slide 2 goes here. -->
+    </div>
+    <div class="slide">
+      <!-- Content for slide 3 goes here. -->
+    </div>
+    <div class="slide">
+      <!-- Content for slide 4 goes here. -->
+    </div>
+  </div>
+</div>
+<!-- Slideshow HTML -->
+
+
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:560px;
+  height:263px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:540px; /* reduce by 20 pixels to avoid horizontal scroll */
+  height:263px;
+}
+
+/** 
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:0;
+  left:0;
+  background:transparent url(img/control_left.jpg) no-repeat 0 0;
+}
+#rightControl {
+  top:0;
+  right:0;
+  background:transparent url(img/control_right.jpg) no-repeat 0 0;
+}
+
+
+$(document).ready(function(){
+  var currentPosition = 0;
+  var slideWidth = 560;
+  var slides = $('.slide');
+  var numberOfSlides = slides.length;
+  
+  // Remove scrollbar in JS
+  $('#slidesContainer').css('overflow', 'hidden');
+  
+  // Wrap all .slides with #slideInner div
+  slides
+  .wrapAll('<div id="slideInner"></div>')
+  // Float left to display horizontally, readjust .slides width
+  .css({
+    'float' : 'left',
+    'width' : slideWidth
+  });
+  
+  // Set #slideInner width equal to total width of all slides
+  $('#slideInner').css('width', slideWidth * numberOfSlides);
+  
+  // Insert left and right arrow controls in the DOM
+  $('#slideshow')
+    .prepend('<span class="control" id="leftControl">Move left</span>')
+    .append('<span class="control" id="rightControl">Move right</span>');
+
+  // Hide left arrow control on first load
+  manageControls(currentPosition);
+ 
+  // Create event listeners for .controls clicks
+  $('.control')
+    .bind('click', function(){
+    // Determine new position
+      currentPosition = ($(this).attr('id')=='rightControl') 
+    ? currentPosition+1 : currentPosition-1;
+  
+      // Hide / show controls
+      manageControls(currentPosition);
+      // Move slideInner using margin-left
+      $('#slideInner').animate({
+        'marginLeft' : slideWidth*(-currentPosition)
+      });
+    });
+  
+  // manageControls: Hides and shows controls depending on currentPosition
+  function manageControls(position){
+    // Hide left arrow if position is first slide
+    if(position==0){ $('#leftControl').hide() }
+    else{ $('#leftControl').show() }
+    // Hide right arrow if position is last slide
+    if(position==numberOfSlides-1){ $('#rightControl').hide() } 
+    else{ $('#rightControl').show() }
+    } 
+  });
+
+var currentPosition = 0;
+var slideWidth = 560;
+var slides = $('.slide');
+var numberOfSlides = slides.length;
+
+$('#slidesContainer').css('overflow', 'hidden');
+
+slides
+  .wrapAll('<div  id="slideInner"></div>')
+
+$('#slideInner').css('width', slideWidth * numberOfSlides);
+
+slides
+  .css('overflow', 'hidden')
+  .wrapAll('<div  id="slideInner"></div>')
+$('#slideshow')
+  .prepend('<span class="control" id="leftControl">Moves left</span>')
+  .append('<span class="control" id="rightControl">Moves right</span>');
+
+function  manageControls(position){
+  // position==0 is first slide
+  if(position==0)  { $('#leftControl').hide(); }
+  else { $('#leftControl').show(); }
+  
+  // numberOfSlides-1 is last slides
+  if(position==numberOfSlides-1) {  $('#rightControl').hide(); } 
+  else { $('#rightControl').show(); }
+}       
+
+manageControls(currentPosition);
+
+$('.control').bind('click',  function(){
+  // do something when user clicks 
+});
+
+currentPosition = ($(this).attr('id')=='rightControl') 
+                  ?  currentPosition+1 : currentPosition-1;
+manageControls(currentPosition);
+
+$('#slideInner').animate({
+  'marginLeft' : slideWidth*(-currentPosition)
+});
+</body>
+</html>

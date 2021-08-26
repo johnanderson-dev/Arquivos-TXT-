@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta content='Site sobre tecnologia e tudo sobre HDD(Hard Disk Drive)' name='description'/>
+    <meta content='HD, HDD, Hard-Disk,Disco-rigido, platters, technology' name='keyword'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    
+    <link href='css/mobile.css' media='(max-width: 320px)' rel='stylesheet'/>    
+
+<title>KryptoBit Info</title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin><![CDATA[
+@import url ('https://fonts.googleapis.com/css?family= Pacifico '); 
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+
+
+body{
+  background: #dac8be;
+  
+}
+
+h1{
+  font-family: Arial;
+  font-size: 25pt;
+  color: #4bf7a0;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+} 
+
+h2{
+  font-family: Arial;
+  font-size: 20pt;
+  color: #4bf7a0;
+  text-align: center;
+  text-shadow: 3px 3px 3px black;
+} 
+
+
+
+                                 /* Barra Top Menu */ 
+
+
+.barra-Header{
+  position: fixed;
+  background: rgba(112,109,104,.8);
+  height: 80px;
+  top: 0px;
+  right: 0px;
+  z-index: 1;
+}
+.barra-Header img{
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+
+}
+
+
+                                   /* Menu */ 
+
+nav#menu{
+  position: relative;  
+  display: block;
+  bottom: 103px;
+  left: 200px;
+  width: 850px;
+  height: 75px;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+   
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgba(202,202,202,0.5);
+    padding: 10px;
+    margin: 4px;
+    border: 1px solid gray; 
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    -webkit-transition: background-color 1s;    
+    -moz-transition: background-color 1s; 
+    -o-transition: background-color 1s;     
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
+}                                     
+
+nav#menu li:hover{
+    background-color: #606060;
+
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+
+}
+
+                                  /* Icone redondo da barra do menu */ 
+
+
+
+#icon-bar-header{
+    position: relative;
+    left: 1150px;
+    bottom: 230px;
+    
+}
+#icon-bar-header-kryptobit{
+     position: relative;
+     left: 992px;
+     bottom: 237px;
+   
+
+}
+                                     /* Contaneir Corpo */ 
+
+
+
+
+
+#contaneir{
+   position: absolute;
+   background: rgba(112,109,104,.8);
+   border: 1px solid gray;
+   border-radius: 3px 3px;
+   margin:  100px 160px 100px 160px;
+   width: 1000px;
+   height: 2350px;
+   box-shadow: 3px 3px 3px gray;
+}
+
+
+#contaneir p{
+  position: relative;
+  text-align: justify;
+  text-indent: 50px;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 12pt;
+  width: 635px;
+  left: 170px;
+}
+#contaneir img{
+  position: relative;
+  left: 170px;
+  border: solid 2px black;
+  border-radius: 3px;
+  box-shadow: 3px 3px 3px black;
+  
+}
+
+#contaneir span, i, em{
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+  color: #2d888d;
+  
+}
+
+#contaneir strong, b, small{
+  color: #2a9e79;
+  
+}
+
+
+#contaneir ul{
+  position: relative;
+  list-style: none;
+  color: white;
+}
+
+#contaneir li{
+  position: relative;
+  left: 170px;
+  font-family: 'Fredoka One', cursive; 
+  text-shadow: 3px 3px 3px black;
+}
+
+
+                           /* BANDEIRAS PATA TRADUÇÃO DA PÁGINA */
+
+
+ 
+
+                  /* BANDEIRAS PATA TRADUÇÃO DA PÁGINA */
+
+
+
+.translate-flag{
+   position: fixed;
+   top: 250px;
+   right: 0px;
+   height: 252px;
+   width: 50px;   
+}
+
+
+#translate-flag-brasil{
+  position: relative;
+  left: 10px;
+  top: 10px;
+}  
+
+#flag-brasil-fundo{
+  position: relative;
+  border: solid 1px gray; 
+  border-radius: 15px 0px 0px 15px;
+  width: 100px;
+  height: 50px;
+  background: rgba(112,109,104,.8);
+  
+}
+
+#translate-flag-usa{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#flag-usa-fundo{
+  position: relative;
+  border: solid 1px gray; 
+  border-radius: 15px 0px 0px 15px;
+  width: 100px;
+  height: 50px;
+  background: rgba(112,109,104,.8);
+  top: 50px;
+}
+
+#translate-flag-china{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}                    
+
+#flag-china-fundo{
+  position: relative;
+  background: rgba(112,109,104,.8); 
+  top: 100px;
+  width: 100px;
+  height: 50px;
+  border: solid 1px gray;
+  border-radius: 15px 0px 0px 15px;
+}
+
+                     /* Rodapé Superior */
+
+
+.rodape-superior{
+   position: absolute;
+   background:#3c3a3a;
+   height: 100px;
+   top: 2583px;
+   left: 0px;
+}
+
+
+
+                                /* Icones Feeds Rodapé */
+
+#facebook-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:200px;
+   
+}
+
+#instagram-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:425px;
+
+}
+
+#twitter-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:700px;
+
+}
+
+#gmail-icon-rodape{
+   position: absolute;  
+   top: 12px;
+   left:975px;
+
+}
+
+                          /* Rodapé Inferior */
+
+.rodape-inferior{
+   position: absolute;
+   background:#4c4a47;
+   width: 100%;
+   height: 470px;
+   top: 2663px;
+   left: 0px;
+   border-top: 2px  solid black;
+   z-index: 1;
+}
+
+
+                        /* AREA DE CONTATO RODAPÉ */
+
+#contato-rodape{
+  position: absolute;
+  left: 100px;
+  bottom: 30px;
+}                         
+
+#icon-email-contato-rodape{
+   position: relative;  
+   top: 50px;
+   left:900px;
+  
+
+}
+
+#text-email-contato-rodape{
+   position: relative;  
+   color: #fa8d57;
+   bottom: 25px;
+   left:958px;
+   font-size: 20px;
+   font-family: 'Pacifico', cursivo;
+   text-shadow: 2px 2px black;  
+
+}
+
+.barra-contato-rodape{
+   position: relative;
+   background: #fa8d57;
+   border: 1px solid black;
+   height: 4px;
+   left: 910px;
+   bottom: 30px;
+   box-shadow: 1px 1px black;
+}  
+
+
+                      /* Formulario */
+
+
+.formulario {
+  position: relative;
+  top: 0px;
+  left: 900px;
+
+}
+
+.formulario form{
+   background: rgba(250,141,87,.8);
+   width: 200px;
+   margin: 0 auto;
+   padding: 1em;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+
+}
+
+.formulario form div{
+   margin-top: 1em;
+   margin-left: -5px;
+
+}
+
+.formulario label{
+   display: block;
+   width: 100px;  
+   font-size: 17px;
+   font-family: 'Bree Serif', serif;
+   
+   
+}
+
+.formulario input, textarea{
+   border-radius: 10px;
+   width: 200px;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   border: 1px solid #999;
+   padding: 5px;
+   font-family: 'Inconsolata', monospace;
+   font-size: 10px;
+   
+}
+
+.formulario textarea{
+   height: 80px; 
+ 
+
+}
+
+.formulario input:focus, textearea:focus{
+   border-color: #000;  
+}
+
+.formulario button{
+   border: 1px solid #999;
+   border-radius: 5px ;
+   width: 80px; 
+   height: 20px;
+}
+
+.button-formulario{
+  
+}
+
+
+                               /* LOCALIZAÇÃO RODAPÉ */
+
+
+.localization{
+   position: absolute;
+   top: 2700px;
+   right: 550px;
+   width: 300px;
+   height: 300px;
+   z-index: 1;
+}
+#localization-top img{
+   position: relative;
+   left: 0px;
+}
+#localization-top{
+   height: 80px;
+}
+
+#localization-top p{
+   position: relative;
+   color: #00ff6c;
+   left: 50px;
+   bottom: 60px;
+   font-size: 20px;
+   font-family: 'Bree Serif', serif; 
+   text-shadow: 3px 3px black;
+}
+
+.barra-localization-rodape{
+   position: relative;
+   background: #00ff6c;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 10px;
+   bottom: 70px;
+   box-shadow: 1px 1px black;
+}
+
+#localization-bottom{
+   position: absolute;
+   background: rgba(0,255,108,.8);
+   width: 280px;
+   left: 5px;
+   top: 100px;
+   border: 2px solid black;
+   border-radius: 1em;
+   box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+#localization-bottom p{
+   postion: relative;
+   top: 0px;
+   left: 45px;
+   color: white;
+   font-family: 'Fredoka One', cursive;
+   font-weight: 500;
+   font-size: 18px;
+   text-align: center;
+   text-shadow: 2px 2px 2px black;
+}
+
+
+#localization-bottom img{
+  position: relative;
+  top: 0px;
+  left: 85px;
+}
+
+
+                                 /* DESENVOLVEDOR */
+
+#text-developer{
+  position: absolute;
+  top: 3080px;
+  left: 550px;
+  color: #9f9b9b;
+  font-family: 'Fredoka One', cursive;
+  font-size: 13px;
+  z-index: 1;
+}
+
+#text-developer a{
+  color: #9f9b9b;
+  text-decoration: none;  
+}
+
+#text-developer a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+
+                         /*DESCRIÇÃO "SOBRE" MAIS MINI MENU */
+
+.about-us{
+   position: absolute;
+   left: 50px;
+   top: 2680px;
+   z-index: 1;
+
+}
+.about-us img{
+   position: relative;
+   padding: auto;
+   margin: auto;
+   left: 10px;
+}
+
+.about-us p{
+   position: relative;
+   bottom: 50px;
+   left: 75px;
+   color: #a559d6;
+   font-size: 18px;
+   font-family: 'Fredoka One', cursive;
+   text-shadow: 3px 3px black;
+ 
+}
+
+.barra-about-us{
+   position: relative;
+   background: #a559d6;
+   border: 1px solid black;
+   border-radius: 3px;
+   height: 5px;
+   left: 5px;
+   bottom: 55px;
+   box-shadow: 2px 2px black;  
+
+}
+
+.about-us ul{
+  position: relative;
+  list-style: none; 
+  background:rgba(165,89,214,.8);
+  width: 160px;
+  height: 300px;
+  left: 5px;
+  bottom: 30px;
+  border: 2px solid black;
+  border-radius: 1em;
+  box-shadow: 5px 5px rgba(0,0,0,.5);
+}
+
+.about-us li{
+  position: relative;
+  padding: 5px;
+  margin: 5px;
+  right: 40px;
+  font-family: 'Pacifico', cursivo;
+  font-size: 15px;
+  text-shadow: 3px 3px black;
+}
+.about-us a{
+   color: white;
+   text-decoration: none;
+}
+.about-us a:hover{
+   color: gray;
+   text-decoration: underline;
+}
+
+                       
+                                  /* LOGO RODAPÉ KRYPTOBIT COM DATA DE CRIAÇÃO*/
+
+.logo-kryptoBit-rodape{
+   position: absolute;
+   top: 2950px;
+   left: 200px;
+   z-index: 1;
+} 
+ 
+.logo-kryptoBit-rodape img{
+   position: absolute;
+   padding-bottom: 1em;
+   left: 120px;
+}
+
+.logo-kryptoBit-rodape p{
+    position: absolute;
+    color: #9f9b9b;
+    top: 120px;
+    left: 80px;
+    width: 200px;
+    padding-left: 3em;
+}
+
+
+                 
+
+]]></b:skin>
+</head>
+<body>
+
+                                                     <!-- Barra Topo Menu -->
+                                 
+<div class='barra-Header' style='width: 100%'>
+<img  src="https://image.ibb.co/iVgDwV/Letra-KB.png" alt="KryptoBit" border="0" width="100px" height="100px"/>
+
+
+                                                          <!-- Menu -->	
+    	
+
+<nav id='menu'>
+ <h1> Menu Principal</h1>
+  <ul>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/cMbTWV/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinfo-interfaces.blogspot.com/' target='_self'>Home</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/gJ1xQq/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>História do HD</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/idA28A/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Interface</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/eEMOgV/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Leitura e Gravação</a></li>
+   <li onmouseover="mudaFoto('https://preview.ibb.co/e0pjMV/Logo-Krypto-Bit.png')" onmouseout="mudaFoto('https://preview.ibb.co/hOgWJA/Logo-Krypto-Bit.png')"><a href='https://kryptobitinformartica-hd.blogspot.com/' target='_self'>Sistema de Arquivos</a></li>
+ </ul>
+</nav>
+
+
+
+
+<img id='icon-bar-header' src="https://image.ibb.co/c2yeLq/Vetor.png" width="140px" height="140px"/>
+<img id='icon-bar-header-kryptobit' src="https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png" width='110px' height='110px'/>
+<script>
+   function mudaFoto (foto){
+     document.getElementById("icon-bar-header-kryptobit").src = foto;
+}
+
+</script>   
+
+</div>               
+
+
+<div>
+<b:section class='body' id='body' maxwidgets='1' showaddelement='no'/>
+ </div>
+
+<div id='contaneir'>
+
+<h1>Como é feita a Leitura e Gravação de dados no HD?</h1>
+
+<hgroup>
+<p>
+Os discos que ficam internamente no <b>HD</b> são cobertos por um <em>material</em> magnético que geralmente é composto por <b>oxido de ferro.</b> 
+Na cabeça de leitura e gravação existe polaridade em sua extremidades, aonde essa polaridade com altas frequências alteram as moléculas do material magnético, 
+de tal forma que se a polaridade for positiva atrairá a negativa e assim fazendo a gravação dos bits. 
+No processo de leitura a cabeça de leitura e gravação &quot;lê&quot; o <b>campo magnético</b> gerado pelas moléculas e gera uma corrente 
+elétrica correspondente, cuja variação é analisada pelo controlador do <b>HD</b> para determinar os <em>bits (0 e 1).</em>
+</p>
+  
+</hgroup>
+
+<img src='https://preview.ibb.co/keiPu8/Modifica_o_das_Moleculas_pela_Cabe_a.png'/> 
+
+<hgroup>
+  
+ <p>As <em>trilhas</em> são círculos que começam no centro do disco e vão até a sua borda, como se estivessem um dentro do outro. 
+Estas <i>trilhas</i> são numeradas da borda para o centro, isto é, a trilha que fica mais próxima da extremidade do disco é denominada <em>trilha 0</em>, 
+a trilha que vem em seguida é chamada <em>trilha 1</em> e assim por diante &#8212; até chegar à trilha mais próxima do centro. Cada trilha é dividida em 
+<b>trechos regulares</b> chamados de <em>setores.</em> Cada setor possui uma capacidade determinada de armazenamento (geralmente, <b>512 bytes</b>).
+
+</p>
+
+</hgroup>  
+
+<img src='https://preview.ibb.co/c8fHu8/Leitura_e_grava_o_no_HD.png'/>
+
+ <hgroup>
+   <h2> Participação do Braço de leitura e Gravação no processo.</h2> 
+   <p>A movimentação do <em>braço</em> do disco rígido é feita através de dois poderosos <b>ímãs de neodímio,</b> localizados em cada um de seus lados. 
+A passagem de <b>correntes elétricas</b> de diferentes intensidades faz com que a <i>potência de cada ímã seja alterada,</i> o que ocasiona a movimentação dos braços 
+e, consequentemente, das <em>cabeças de leitura.</em></p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/ndSpST/Bra_o_de_Leitura_e_Grava_o.png'/>
+
+<hgroup>
+   <h2> Participação da Cabeça de leitura e Gravação no processo.</h2> 
+   <p>A <em>gravação e a leitura dos dados</em> são feitas através de minúsculos <b>eletroímãs</b> presentes nas cabeças de leitura do disco rígido. 
+Compostos de <b>uma bobina de fios</b> que envolvem um <i>núcleo de ferro,</i> esses ímãs são extremamente precisos, o que permite a 
+gravação de trilhas medindo centésimos de milímetros.</p>
+ </hgroup>  
+
+<img src='https://preview.ibb.co/gwc0Z8/Cabe_a_de_Leitura_e_Grava_o.png'/>
+
+
+</div>
+
+                                       <!-- BANDEIRAS PARA TRADUÇÃO DA PÁGINA -->
+
+
+<div class='translate-flag'>
+ <div id="flag-brasil-fundo">
+  <img id='translate-flag-brasil' src="https://image.ibb.co/gYWEjU/Flag-Brasil.png" width='30px' height='30px'/>
+ </div>
+ <div id="flag-usa-fundo">
+  <a href="#"><img id='translate-flag-usa' src="https://image.ibb.co/fsETB9/Flag-USA.png" width='30px' height='30px'/></a>
+ </div>
+ <div id="flag-china-fundo">
+  <a href="#"><img id='translate-flag-china' src="https://image.ibb.co/bWU9jU/Flag-China.png" width='30px' height='30px'/></a>
+ </div>
+</div>
+
+                                            
+                                             <!-- RODA SUPERIO E FEEDS -->
+
+
+<div class='rodape-superior' style='width: 100%'>
+
+  <a href='https://www.facebook.com/'><img height='50px' id='facebook-icon-rodape' src='https://image.ibb.co/di1PiA/Facebook-1.png' width='50px'/></a>
+
+  <a href='https://www.facebook.com/'><img height='55px' id='instagram-icon-rodape' src='https://image.ibb.co/iWG2B9/Instagram.png' width='55px'/></a>
+
+  <a href='https://www.facebook.com/'><img height='55px' id='twitter-icon-rodape' src='https://image.ibb.co/dE8qW9/Twitter.png' width='55px'/></a>
+
+  <a href='https://www.facebook.com/'><img height='55px' id='gmail-icon-rodape' src='https://image.ibb.co/kBHTJp/G_Mail.png' width='55px'/></a>
+  
+</div>
+
+                                               <!-- RODAPÉ INFERIOR -->
+
+
+<div class='rodape-inferior' style='width: 100%'>
+ 
+ 
+
+
+                                        <!-- CONTATO E FORMULARIO RODAPÉ -->
+
+
+ <div id='contato-rodape'>
+    <img id='icon-email-contato-rodape' src="https://image.ibb.co/eu6YjU/Email.png"  width='55px' height='55px'/>
+    <p id='text-email-contato-rodape'>Fale Conosco:</p>
+    <div class='barra-contato-rodape' style='width: 232px;'/>
+
+<script>
+  function validacao(){
+    if(document.form.nome.value=="") {
+         alert("Por favor, preencha o campo nome.");
+         document.form.nome.focus();
+         return false; 
+  }
+
+
+    if(document.form.email.value=="" \\ document.form.email.value.indexOf('@')==-1 \\ document.form.email.value.indexOf('.')==-1){
+          alert("Por favor, digite um endereçõ de e-mail válido");
+          document.form.email.focus();
+          return false;
+
+
+}
+
+
+    if(document.form.senha.value.length 8) {
+          alert("A senha não pode conter menos que 8 caracterres.")
+          document.form.senha.focus();
+          return false;
+ }
+
+}
+
+
+
+</script>
+
+
+     <div class='formulario'>
+      <form name='form' action='page.com' method='post' onSubmit='return validacao()'>
+        <div>
+           <label for='name'>Name:</label>
+           <input type='text' value='Digite seu Nome' id='nome' name='usuario_name'/>
+        </div>
+  
+        <div>
+           <label for='email'>E-mail:</label>
+           <input type='email' value='Digite seu E-mail' id='email' name='usuario_email'/>
+        </div>
+
+        <div>
+           <label for='msg'>Mensagem:</label>
+           <textarea id='msg' name='usuario_msg'>Digite sua Mensagem</textarea>
+        </div>
+ 
+       <div class='button-formulario'> 
+           <button type='submit'>Enviar</button>
+       </div>
+     </form>
+    </div>
+ </div>
+</div>
+
+
+                                                     <!-- LOCALIZAÇÃO RODAPÉ -->
+
+
+
+<div class='localization'>
+     <div id='localization-top'>
+       <img src="https://image.ibb.co/n2ZCEU/Localiza_o.png" width='50px' height='50px'/>
+         <p>KryptoBit Localização</p>   
+         <div class='barra-localization-rodape' style='width: 270px;'/>  
+      </div>
+      <div id='localization-bottom'>   
+          <p id='localization-text-endereco'>Fortaleza-CE / Brasil</p>
+          <img id='localization-img-mapa' src="https://image.ibb.co/dzVKDp/Mapa.png" width='120px' height='120px'/>
+       </div>
+</div>
+
+     <p id='text-developer'>Desenvolvedor:<a href='#'> John Anderson</a></p>
+
+ <div class='about-us'>
+   <img src="https://image.ibb.co/cvwFM9/Contato.png" width='50px' height='50px'/>
+      <p>Sobre:</p>
+      <div class='barra-about-us' style='width: 200px;'/> 
+ 
+   <ul>
+       <li><a href='#'>Inicio</a></li>       
+       <li><a href='#'>Sobre</a></li>
+       <li><a href='#'>Serviços</a></li>
+   </ul>
+        
+ </div>
+
+                                                <!-- LOGO RODAPÉ KRYPTOBIT -->
+
+ 
+ <div class='logo-kryptoBit-rodape'>
+   <img src="https://image.ibb.co/m0HBTp/Logo-Krypto-Bit.png" width='120px' height='120px'/>
+  <p>Krypto Bit - 2018</p>
+</div>
+
+
+
+
+</body>
+</html>

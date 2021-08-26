@@ -1,0 +1,4 @@
+
+<meta name="reply-to" content="ricoarrigoni@gmail.com">
+           Esta meta tag é responsável por especificar um endereço de e-mail para entrar em contato com
+           o responsável pelo site. Parecida com a tag author, a diferença é que nesse caso é o responsável e não o desenvolvedor da página.

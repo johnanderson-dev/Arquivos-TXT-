@@ -1,0 +1,145 @@
+<html>
+<head>
+<tittle></tittle>
+</head>
+<body>
+<div style='clear:both;'/>
+ 
+<div id='content-wrapper'>
+
+<!-- Featured Content Slider Started -->
+
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+
+<div class='fp-slider clearfix'>
+<div class='fp-slides-container clearfix'>
+
+<div class='fp-slides'>
+
+<!-- Slide 1 Code Start -->
+<div class='fp-slides-items'>
+<div class='fp-thumbnail'>
+<a href='#'><img src='http://3.bp.blogspot.com/-oO2dRJGOOMQ/U7akuvfwXnI/AAAAAAAAK1w/najGkczI31E/s1600/1.jpg'/></a>
+</div>
+<div class='fp-content-wrap'>
+<div class='fp-content'>
+<h3 class='fp-title'>
+<a href='#'>APRESENTADO SLIDE 1 TÍTULO</a>
+</h3>
+<p>
+VÁ PARA O BLOGGER EDITAR HTML E ENCONTRAR ESTE TEXTO E SUBSTITUIR PELA SUA DESCRIÇÃO DO POST EM DESTAQUE.....
+</p>
+</div>
+<div class='fp-prev-next-wrap clearfix'>
+    <a class='fp-next' href='#fp-next'/>
+    <a class='fp-prev' href='#fp-prev'/>
+</div>
+</div>
+</div>
+<!-- Slide 1 Code End -->
+
+<!-- Slide 2 Code Start -->
+<div class='fp-slides-items'>
+<div class='fp-thumbnail'>
+<a href='#'><img src='http://1.bp.blogspot.com/-em5CSEWZk8Y/U7akwaWXFrI/AAAAAAAAK14/Nr7wCPx6zb4/s1600/2.jpg'/></a>
+</div>
+<div class='fp-content-wrap'>
+<div class='fp-content'>
+<h3 class='fp-title'>
+<a href='#'>APRESENTADO SLIDE 2 TÍTULO</a>
+</h3>
+<p>
+VÁ PARA O BLOGGER EDITAR HTML E ENCONTRAR ESTE TEXTO E SUBSTITUIR PELA SUA DESCRIÇÃO DO POST EM DESTAQUE.....
+</p>
+</div>
+<div class='fp-prev-next-wrap clearfix'>
+    <a class='fp-next' href='#fp-next'/>
+    <a class='fp-prev' href='#fp-prev'/>
+</div>
+</div>
+</div>
+<!-- Slide 2 Code End -->
+
+<!-- Slide 3 Code Start -->
+<div class='fp-slides-items'>
+<div class='fp-thumbnail'>
+<a href='#'><img src='http://2.bp.blogspot.com/-aV9gyLa-H8I/U7akxXpltYI/AAAAAAAAK2A/fEV0hFg_8_E/s1600/3.jpg'/></a>
+</div>
+<div class='fp-content-wrap'>
+<div class='fp-content'>
+<h3 class='fp-title'>
+<a href='#'>APRESENTADO SLIDE 3 TÍTULO</a>
+</h3>
+<p>
+ VÁ PARA O BLOGGER EDITAR HTML E ENCONTRAR ESTE TEXTO E SUBSTITUIR PELA SUA DESCRIÇÃO DO POST EM DESTAQUE.....
+</p>
+</div>
+<div class='fp-prev-next-wrap clearfix'>
+    <a class='fp-next' href='#fp-next'/>
+    <a class='fp-prev' href='#fp-prev'/>
+</div>
+</div>
+</div>
+<!-- Slide 3 Code End -->
+
+<!-- Slide 4 Code Start -->
+<div class='fp-slides-items'>
+<div class='fp-thumbnail'>
+<a href='#'><img src='http://2.bp.blogspot.com/-o2cwW2aVDw0/U7akyt_GhaI/AAAAAAAAK2I/wRyPeWyhy7U/s1600/4.jpg'/></a>
+</div>
+<div class='fp-content-wrap'>
+<div class='fp-content'>
+<h3 class='fp-title'>
+<a href='#'>APRESENTADO SLIDE 4 TÍTULO</a>
+</h3>
+<p>
+ VÁ PARA O BLOGGER EDITAR HTML E ENCONTRAR ESTE TEXTO E SUBSTITUIR PELA SUA DESCRIÇÃO DO POST EM DESTAQUE.....
+</p>
+</div>
+<div class='fp-prev-next-wrap clearfix'>
+    <a class='fp-next' href='#fp-next'/>
+    <a class='fp-prev' href='#fp-prev'/>
+</div>
+</div>
+</div>
+<!-- Slide 4 Code End -->
+
+<!-- Slide 5 Code Start -->
+<div class='fp-slides-items'>
+<div class='fp-thumbnail'>
+<a href='#'><img src='http://3.bp.blogspot.com/-YNqjUVf5pno/U7akz3rkt0I/AAAAAAAAK2Q/ykzN1aUoKvk/s1600/5.jpg'/></a>
+</div>
+<div class='fp-content-wrap'>
+<div class='fp-content'>
+<h3 class='fp-title'>
+<a href='#'>APRESENTADO SLIDE 5 TÍTULO</a>
+</h3>
+<p>
+ VÁ PARA O BLOGGER EDITAR HTML E ENCONTRAR ESTE TEXTO E SUBSTITUIR PELA SUA DESCRIÇÃO DO POST EM DESTAQUE.....
+</p>
+</div>
+<div class='fp-prev-next-wrap clearfix'>
+    <a class='fp-next' href='#fp-next'/>
+    <a class='fp-prev' href='#fp-prev'/>
+</div>
+</div>
+</div>
+<!-- Slide 5 Code End -->
+
+</div>
+
+<div class='fp-nav'>
+    <span class='fp-pager'/>
+</div>  
+            
+</div>
+</div>
+<div style='clear:both;'/>
+
+</b:if></b:if>
+
+<!-- Featured Content Slider End -->
+
+</body>
+</hmtl>
