@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/media.css">
+   
+</head>
+<body>
+
+    <h1>
+        Explicação sobre Media Query:
+    </h1>
+
+      <div>
+        <ul>
+          <li>Media Query: Refere-se a tela do dispositivo (algo fisico)</li>
+          <li>Media Type: Refere-se ao tipo de tela baseado na altura e largura; Portrait (celular em pé) ou Lansdcape (celular deitado)</li>
+          <li>Media Features: São trechos de condigos que irão impor condições de acordo com a largura e altura do dispositivo</li>
+       </ul>
+     </div>
+
+     <div>
+      <span>
+          OBS: O media type Portrait é baseado na largura width, seria a mesma coisa que colocar @media max-width;
+               Se for do tipo Landscape será a mesma coisa que max-height(altura). 
+        </span>
+      </div>
+        
+            Exemplo: 
+      
+        <div>
+            <ul>
+              <li> Se colocar @media (max-width: 768px); O elemento vai assumir os atributos setados de 0px a 768px na largura;</li>
+              <li> Se colocar @media (min-width: 768px); O elemento vai assumir os atributos setados de 768px para cima na largura;</li>
+            </ul>
+            <ul>
+              <li>Se colocar @media (max-height: 768px); O elemento vai assumir os atributos setados de 0px a 768px na Altura;
+              <li>Se colocar @media (min-height: 768px); O elemento vai assumir os atributos setados de 768px a pra cima na Altura;
+            </ul>
+          </div>
+
+        <h2>Operadores:</h2>
+
+           <h3>And</h3>
+
+           <div>
+              <span>
+                  Usando AND irá ser incluido a soma de mais uma condição, media features no codigo:
+              </span>
+              <br>
+              <bdi>
+                EX: @media (max-width: 768px) and (orientation: lansdcape)
+              </bdi>
+            </div>
+               <div>
+                <span>
+                  Como pode ver isso faz com que tenha duas condições. Mas quando se usa um max-width (Portrait) e 
+                  orientation: lansdcape o max-width irá ser setado apenas quando atingir o valor dele e se for obtido 
+                  menos ou mais não ira assumir os valores. E o lansdcape terá um valor a menos até 0 com os valores 
+                  setados.
+                </span>
+            </div>
+            <div>
+                <span>
+                     Ex: Se dentro dessa condição o body for da cor amarelo de acordo com a primeira condição só tera cor
+                     amarela quando atingir 768px, abaixo disso com 767 e acima 769 não irá setar. 
+                </span>
+            </div>
+            <div>
+                <span>
+                     A segunda condição só sera setada quano tiver um amenos na altura de acordo com que foi passado. 
+                     Ou seja, se foi passado 768 px , só irá setar os valores de 767px pra baixo.
+                </span>
+                </div>
+                      
+                  <section>
+                    <div class="div-1">
+                       Menor que 768 px 
+                    </div>
+                    <div class="div-2">
+                        De 642 px à 768 px de Largura
+                        <br>
+                        De 767 px de altura para baixo                         
+                     </div>
+                     <div class="div-3">
+                        Maior que 768 px                          
+                     </div>
+                  </section>
+              <div>
+
+              <span>
+                  Isso ocorre por que segundo a segunda condição a orientação é pra Landscape, baseada na altura. 
+                  Então o media query será em cima da altura
+              </span>
+
+            </div>
+
+            <div>
+
+              <span>
+                 Usando agora duas condições de media features para aplicar as condições se forem validas 
+              </span>
+               <br>
+              <bdi>
+                @media (min-width: 320px) and (max-width: 800px)
+              </bdi>
+
+            </div>
+
+            <div>
+              Nessa media query features informa que será aplicado a condição de 320 px pra cima e na outra informa que sera aplicado de 800 pra baixo.
+              Ou seja, irá ficar entre os dois, de 320 à 800 px. 
+            </div>
+
+            <div class="maisoumenos">
+              Se for menor que 320 px e maior que 800 px, essa frase sera informada!
+            </div>
+            <div class="igual">
+              Se estiver dentro das condições essa frase será informada!
+            </div>
+
+       <h3>OR</h3>
+
+       <div>
+         <span>
+          Com o operador OR, a regra será aplicada se uma OU outra condição for válida.
+         </span>
+       </div>
+       <bdi>
+        @media (max-width: 800px), (min-width: 900px)
+       </bdi>
+       <div>
+        Nessa condição os valores só serão setados se a tela for menor que 800 xp e maior que 900.
+        Se estiver entre 800 e 900 os valores não serão setados
+      </div>
+      <div>
+        <bdi class="or-in">
+          Menor que 800 ou maior que 900 px!
+         </bdi>
+      </div>
+      <div>
+        <bdi class="or-off">
+          Entre 800 e 900 px. 
+         </bdi>
+      </div>
+
+</body>
+</html>
